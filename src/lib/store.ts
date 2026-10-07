@@ -21,7 +21,8 @@ export interface AppState {
   trips: Trip[];
   experiences: Experience[];
   notifications: AppNotification[];
-  chat: { messages: ChatMessage[]; agent: SharedState; thinking: boolean };
+  /** sessionId is set when chatting with the Phase 2 backend. */
+  chat: { messages: ChatMessage[]; agent: SharedState; thinking: boolean; sessionId?: string };
 }
 
 const STORAGE_KEY = "juni:v1";

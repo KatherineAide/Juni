@@ -43,6 +43,14 @@ describe("Planner parsing", () => {
   });
 });
 
+describe("Planner seasons", () => {
+  it("treats 'summer school' as a program, not a season", () => {
+    expect(parseMessage("Philosophy summer school in Athens in June").months).toEqual([5]);
+    expect(parseMessage("Escuela de verano de filosofía en junio").months).toEqual([5]);
+    expect(parseMessage("Something this summer").months).toEqual([5, 6, 7]);
+  });
+});
+
 describe("Juni turn", () => {
   it("asks a follow-up when dates are missing", () => {
     const { parts, state } = runTurn("Cooking course in Italy", emptyState, ctx);

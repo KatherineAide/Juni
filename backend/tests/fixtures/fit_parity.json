@@ -1,0 +1,2900 @@
+{
+ "profile": {
+  "name": "Alex",
+  "lang": "en",
+  "homeCity": "Chicago",
+  "passport": "US",
+  "budgetMin": 1500,
+  "budgetMax": 3000,
+  "interests": [
+   "languages",
+   "cooking"
+  ],
+  "skills": [
+   {
+    "label": "Spanish",
+    "level": "A2"
+   },
+   {
+    "label": "Home cooking",
+    "level": "Intermediate"
+   }
+  ],
+  "housing": [
+   "homestay"
+  ],
+  "accessibility": [],
+  "dietary": [
+   "Vegetarian-friendly"
+  ]
+ },
+ "cases": [
+  {
+   "request": {},
+   "results": [
+    {
+     "programId": "antigua-spanish-immersion",
+     "status": "strong",
+     "score": 5.6,
+     "total": 910,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "antigua-spanish-volunteer",
+     "status": "strong",
+     "score": 3.2,
+     "total": 960,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "antigua-cooking-coffee",
+     "status": "strong",
+     "score": 5.8,
+     "total": 1230,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "xela-spanish-community",
+     "status": "strong",
+     "score": 5.4,
+     "total": 725,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "xela-maya-anthropology",
+     "status": "strong",
+     "score": 3.6,
+     "total": 2200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "xela-teaching-volunteer",
+     "status": "strong",
+     "score": 3,
+     "total": 1495,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "oaxaca-market-mole",
+     "status": "strong",
+     "score": 5.8,
+     "total": 1530,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "oaxaca-barro-ceramics",
+     "status": "strong",
+     "score": 4.4,
+     "total": 1230,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "oaxaca-zapotec-weaving",
+     "status": "partial",
+     "score": -1.8,
+     "total": 980,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "florence-renaissance-drawing",
+     "status": "strong",
+     "score": 4.6,
+     "total": 2220,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "florence-art-history-walks",
+     "status": "strong",
+     "score": 3.4,
+     "total": 1200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "bologna-fresh-pasta",
+     "status": "strong",
+     "score": 5.8,
+     "total": 2160,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "bologna-italian-cucina",
+     "status": "strong",
+     "score": 5.2,
+     "total": 1662,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "barcelona-modernisme-sketch",
+     "status": "strong",
+     "score": 3.4,
+     "total": 2340,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "barcelona-street-photo",
+     "status": "strong",
+     "score": 4.6,
+     "total": 1140,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "lisbon-fado",
+     "status": "strong",
+     "score": 4.8,
+     "total": 1940,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "lisbon-travel-writing",
+     "status": "partial",
+     "score": -1,
+     "total": 2300,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "kyoto-washoku",
+     "status": "strong",
+     "score": 5.8,
+     "total": 1300,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "kyoto-ceramics",
+     "status": "strong",
+     "score": 3.6,
+     "total": 4110,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "chiangmai-farm-cooking",
+     "status": "strong",
+     "score": 5.6,
+     "total": 910,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "chiangmai-yoga-foundations",
+     "status": "strong",
+     "score": 3.4,
+     "total": 1825,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "chiangmai-mountain-ecology",
+     "status": "strong",
+     "score": 4.2,
+     "total": 1150,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "athens-philosophy-summer",
+     "status": "strong",
+     "score": 4.6,
+     "total": 1965,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "athens-stoics-week",
+     "status": "strong",
+     "score": 3.2,
+     "total": 970,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito"
+     ]
+    },
+    {
+     "programId": "athens-archaeology-field",
+     "status": "strong",
+     "score": 4.4,
+     "total": 3166,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-antigua-visa-package",
+     "status": "none",
+     "score": -98,
+     "total": 3120,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-florence-master-painter",
+     "status": "none",
+     "score": -97,
+     "total": 1728,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-chiangmai-orphanage-volunteer",
+     "status": "none",
+     "score": -99,
+     "total": 1710,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Abierto a todos los niveles"
+     ]
+    }
+   ]
+  },
+  {
+   "request": {
+    "weeks": 3,
+    "months": [
+     6
+    ],
+    "budget": 2500,
+    "categories": [
+     "languages"
+    ],
+    "level": "beginner",
+    "interests": [
+     "food",
+     "spanish"
+    ],
+    "passport": "US"
+   },
+   "results": [
+    {
+     "programId": "antigua-spanish-immersion",
+     "status": "strong",
+     "score": 19.6,
+     "total": 1345,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,345 total — within your $2,500",
+      "Open to all levels",
+      "Languages — what you asked for",
+      "Matches your interests: food, spanish"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1345 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Idiomas: lo que pediste",
+      "Coincide con tus intereses: food, spanish"
+     ]
+    },
+    {
+     "programId": "antigua-spanish-volunteer",
+     "status": "strong",
+     "score": 13.7,
+     "total": 1420,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,420 total — within your $2,500",
+      "Matches your level (beginner)",
+      "Matches your interests: spanish"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1420 US$ en total, dentro de tus 2500 US$",
+      "Coincide con tu nivel (principiante)",
+      "Coincide con tus intereses: spanish"
+     ]
+    },
+    {
+     "programId": "antigua-cooking-coffee",
+     "status": "partial",
+     "score": 10.3,
+     "total": 1230,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–2 weeks (you asked for 3)",
+      "Starts Jul 12, 2027 — in July",
+      "About $1,230 total — within your $2,500",
+      "Open to all levels",
+      "Matches your interests: food"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 2 semanas (pediste 3)",
+      "Empieza el 12 jul 2027, en julio",
+      "Unos 1230 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Coincide con tus intereses: food"
+     ]
+    },
+    {
+     "programId": "xela-spanish-community",
+     "status": "strong",
+     "score": 17.9,
+     "total": 1070,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,070 total — within your $2,500",
+      "Open to all levels",
+      "Languages — what you asked for",
+      "Matches your interests: spanish"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1070 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Idiomas: lo que pediste",
+      "Coincide con tus intereses: spanish"
+     ]
+    },
+    {
+     "programId": "xela-maya-anthropology",
+     "status": "partial",
+     "score": 10.1,
+     "total": 2200,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 12, 2027 — in July",
+      "About $2,200 total — within your $2,500",
+      "Designed for intermediate learners",
+      "Matches your interests: spanish"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 12 jul 2027, en julio",
+      "Unos 2200 US$ en total, dentro de tus 2500 US$",
+      "Pensado para nivel intermedio",
+      "Coincide con tus intereses: spanish"
+     ]
+    },
+    {
+     "programId": "xela-teaching-volunteer",
+     "status": "partial",
+     "score": 7.5,
+     "total": 1495,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 4–8 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,495 total — within your $2,500",
+      "Designed for intermediate learners",
+      "Matches your interests: spanish"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 4 a 8 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1495 US$ en total, dentro de tus 2500 US$",
+      "Pensado para nivel intermedio",
+      "Coincide con tus intereses: spanish"
+     ]
+    },
+    {
+     "programId": "oaxaca-market-mole",
+     "status": "partial",
+     "score": 11.8,
+     "total": 1530,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–2 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,530 total — within your $2,500",
+      "Open to all levels",
+      "Matches your interests: food, spanish"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 2 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1530 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Coincide con tus intereses: food, spanish"
+     ]
+    },
+    {
+     "programId": "oaxaca-barro-ceramics",
+     "status": "strong",
+     "score": 12.4,
+     "total": 1830,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,830 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1830 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "oaxaca-zapotec-weaving",
+     "status": "partial",
+     "score": 7.2,
+     "total": 1470,
+     "sessionId": "s2",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,470 total — within your $2,500",
+      "Matches your level (beginner)"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1470 US$ en total, dentro de tus 2500 US$",
+      "Coincide con tu nivel (principiante)"
+     ]
+    },
+    {
+     "programId": "florence-renaissance-drawing",
+     "status": "none",
+     "score": -93.4,
+     "total": 3300,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Closest start is Jun 7, 2027, outside July",
+      "About $3,300 — over your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "El inicio más cercano es el 7 jun 2027, fuera de julio",
+      "Unos 3300 US$, supera tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "florence-art-history-walks",
+     "status": "none",
+     "score": -92.6,
+     "total": 1200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "No sessions in July",
+      "About $1,200 total — within your $2,500",
+      "Matches your level (beginner)"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "No hay sesiones en julio",
+      "Unos 1200 US$ en total, dentro de tus 2500 US$",
+      "Coincide con tu nivel (principiante)"
+     ]
+    },
+    {
+     "programId": "bologna-fresh-pasta",
+     "status": "partial",
+     "score": 10.3,
+     "total": 2160,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–2 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $2,160 total — within your $2,500",
+      "Open to all levels",
+      "Matches your interests: food"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 2 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 2160 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Coincide con tus intereses: food"
+     ]
+    },
+    {
+     "programId": "bologna-italian-cucina",
+     "status": "strong",
+     "score": 17.7,
+     "total": 2458,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $2,458 total — within your $2,500",
+      "Open to all levels",
+      "Languages — what you asked for",
+      "Matches your interests: food"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 2458 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Idiomas: lo que pediste",
+      "Coincide con tus intereses: food"
+     ]
+    },
+    {
+     "programId": "barcelona-modernisme-sketch",
+     "status": "partial",
+     "score": 3.4,
+     "total": 2340,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–2 weeks (you asked for 3)",
+      "Closest start is Jun 14, 2027, outside July",
+      "About $2,340 total — within your $2,500",
+      "Designed for intermediate learners"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 3)",
+      "El inicio más cercano es el 14 jun 2027, fuera de julio",
+      "Unos 2340 US$ en total, dentro de tus 2500 US$",
+      "Pensado para nivel intermedio"
+     ]
+    },
+    {
+     "programId": "barcelona-street-photo",
+     "status": "none",
+     "score": -92.4,
+     "total": 1140,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "Closest start is Jun 21, 2027, outside July",
+      "About $1,140 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "El inicio más cercano es el 21 jun 2027, fuera de julio",
+      "Unos 1140 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "lisbon-fado",
+     "status": "none",
+     "score": -93.2,
+     "total": 2890,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "No sessions in July",
+      "About $2,890 — over your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "No hay sesiones en julio",
+      "Unos 2890 US$, supera tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "lisbon-travel-writing",
+     "status": "none",
+     "score": -95,
+     "total": 2300,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Offered for 2–2 weeks (you asked for 3)",
+      "No sessions in July",
+      "About $2,300 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 3)",
+      "No hay sesiones en julio",
+      "Unos 2300 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "kyoto-washoku",
+     "status": "none",
+     "score": -89.7,
+     "total": 1300,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "Closest start is Jun 7, 2027, outside July",
+      "About $1,300 total — within your $2,500",
+      "Open to all levels",
+      "Matches your interests: food"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "El inicio más cercano es el 7 jun 2027, fuera de julio",
+      "Unos 1300 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Coincide con tus intereses: food"
+     ]
+    },
+    {
+     "programId": "kyoto-ceramics",
+     "status": "none",
+     "score": -94.4,
+     "total": 4110,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "No sessions in July",
+      "About $4,110 — over your $2,500",
+      "Designed for intermediate learners"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "No hay sesiones en julio",
+      "Unos 4110 US$, supera tus 2500 US$",
+      "Pensado para nivel intermedio"
+     ]
+    },
+    {
+     "programId": "chiangmai-farm-cooking",
+     "status": "partial",
+     "score": 10.1,
+     "total": 910,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–2 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $910 total — within your $2,500",
+      "Open to all levels",
+      "Matches your interests: food"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 2 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 910 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Coincide con tus intereses: food"
+     ]
+    },
+    {
+     "programId": "chiangmai-yoga-foundations",
+     "status": "strong",
+     "score": 12.4,
+     "total": 1825,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,825 total — within your $2,500",
+      "Matches your level (beginner)"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1825 US$ en total, dentro de tus 2500 US$",
+      "Coincide con tu nivel (principiante)"
+     ]
+    },
+    {
+     "programId": "chiangmai-mountain-ecology",
+     "status": "partial",
+     "score": 7.2,
+     "total": 1150,
+     "sessionId": "s3",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–2 weeks (you asked for 3)",
+      "Starts Jul 12, 2027 — in July",
+      "About $1,150 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 3)",
+      "Empieza el 12 jul 2027, en julio",
+      "Unos 1150 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "athens-philosophy-summer",
+     "status": "partial",
+     "score": 7.6,
+     "total": 1965,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–2 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,965 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1965 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "athens-stoics-week",
+     "status": "none",
+     "score": -92.8,
+     "total": 970,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "No sessions in July",
+      "About $970 total — within your $2,500",
+      "Matches your level (beginner)"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "No hay sesiones en julio",
+      "Unos 970 US$ en total, dentro de tus 2500 US$",
+      "Coincide con tu nivel (principiante)"
+     ]
+    },
+    {
+     "programId": "athens-archaeology-field",
+     "status": "none",
+     "score": -92.6,
+     "total": 3166,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 4–4 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $3,166 — over your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 4 a 4 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 3166 US$, supera tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-antigua-visa-package",
+     "status": "none",
+     "score": -90.5,
+     "total": 3120,
+     "sessionId": "s2",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Only runs 8–8 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $3,120 — over your $2,500",
+      "Open to all levels",
+      "Languages — what you asked for",
+      "Matches your interests: spanish"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Solo dura de 8 a 8 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 3120 US$, supera tus 2500 US$",
+      "Abierto a todos los niveles",
+      "Idiomas: lo que pediste",
+      "Coincide con tus intereses: spanish"
+     ]
+    },
+    {
+     "programId": "risk-florence-master-painter",
+     "status": "none",
+     "score": -91,
+     "total": 1728,
+     "sessionId": "s2",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Offered for 2–2 weeks (you asked for 3)",
+      "Starts Jul 5, 2027 — in July",
+      "About $1,728 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Se ofrece de 2 a 2 semanas (pediste 3)",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 1728 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-chiangmai-orphanage-volunteer",
+     "status": "none",
+     "score": -91,
+     "total": 2415,
+     "sessionId": "s2",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Runs for your 3 weeks",
+      "Starts Jul 5, 2027 — in July",
+      "About $2,415 total — within your $2,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Dura tus 3 semanas",
+      "Empieza el 5 jul 2027, en julio",
+      "Unos 2415 US$ en total, dentro de tus 2500 US$",
+      "Abierto a todos los niveles"
+     ]
+    }
+   ]
+  },
+  {
+   "request": {
+    "weeks": 2,
+    "months": [
+     3,
+     4
+    ],
+    "budget": 1500,
+    "categories": [
+     "cooking"
+    ],
+    "passport": "IN"
+   },
+   "results": [
+    {
+     "programId": "antigua-spanish-immersion",
+     "status": "partial",
+     "score": 7.6,
+     "total": 910,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Closest start is Mar 1, 2027, outside April/May",
+      "About $910 total — within your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "El inicio más cercano es el 1 mar 2027, fuera de abril/mayo",
+      "Unos 910 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "antigua-spanish-volunteer",
+     "status": "partial",
+     "score": 5.2,
+     "total": 960,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Closest start is Jun 7, 2027, outside April/May",
+      "About $960 total — within your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "El inicio más cercano es el 7 jun 2027, fuera de abril/mayo",
+      "Unos 960 US$ en total, dentro de tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "antigua-cooking-coffee",
+     "status": "none",
+     "score": -86.2,
+     "total": 1230,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $1,230 total — within your $1,500",
+      "Open to all levels",
+      "Cooking & Culinary — what you asked for",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 1230 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Cocina y gastronomía: lo que pediste",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "xela-spanish-community",
+     "status": "none",
+     "score": -89.6,
+     "total": 725,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $725 total — within your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 725 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "xela-maya-anthropology",
+     "status": "none",
+     "score": -96.4,
+     "total": 2200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 3–3 weeks (you asked for 2)",
+      "Closest start is Jun 14, 2027, outside April/May",
+      "About $2,200 — over your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 3 a 3 semanas (pediste 2)",
+      "El inicio más cercano es el 14 jun 2027, fuera de abril/mayo",
+      "Unos 2200 US$, supera tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "xela-teaching-volunteer",
+     "status": "none",
+     "score": -94,
+     "total": 1495,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 4–8 weeks",
+      "No sessions in April/May",
+      "About $1,495 total — within your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 4 a 8 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 1495 US$ en total, dentro de tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "oaxaca-market-mole",
+     "status": "none",
+     "score": -89.2,
+     "total": 1530,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $1,530 — slightly over your $1,500",
+      "Open to all levels",
+      "Cooking & Culinary — what you asked for",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 1530 US$, algo más de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Cocina y gastronomía: lo que pediste",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "oaxaca-barro-ceramics",
+     "status": "partial",
+     "score": 6.4,
+     "total": 1230,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Closest start is Mar 8, 2027, outside April/May",
+      "About $1,230 total — within your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "El inicio más cercano es el 8 mar 2027, fuera de abril/mayo",
+      "Unos 1230 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "oaxaca-zapotec-weaving",
+     "status": "none",
+     "score": -93.8,
+     "total": 980,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $980 total — within your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 980 US$ en total, dentro de tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "florence-renaissance-drawing",
+     "status": "none",
+     "score": -90.4,
+     "total": 2220,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Starts Apr 5, 2027 — in April/May",
+      "About $2,220 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "Empieza el 5 abr 2027, en abril/mayo",
+      "Unos 2220 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "florence-art-history-walks",
+     "status": "partial",
+     "score": 6.4,
+     "total": 1200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–1 weeks (you asked for 2)",
+      "Starts Apr 12, 2027 — in April/May",
+      "About $1,200 total — within your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 1 semanas (pediste 2)",
+      "Empieza el 12 abr 2027, en abril/mayo",
+      "Unos 1200 US$ en total, dentro de tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "bologna-fresh-pasta",
+     "status": "none",
+     "score": -86.2,
+     "total": 2160,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Starts May 10, 2027 — in April/May",
+      "About $2,160 — over your $1,500",
+      "Open to all levels",
+      "Cooking & Culinary — what you asked for",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "Empieza el 10 may 2027, en abril/mayo",
+      "Unos 2160 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Cocina y gastronomía: lo que pediste",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "bologna-italian-cucina",
+     "status": "none",
+     "score": -89.8,
+     "total": 1662,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Starts Apr 5, 2027 — in April/May",
+      "About $1,662 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "Empieza el 5 abr 2027, en abril/mayo",
+      "Unos 1662 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "barcelona-modernisme-sketch",
+     "status": "none",
+     "score": -91.6,
+     "total": 2340,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Starts May 3, 2027 — in April/May",
+      "About $2,340 — over your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "Empieza el 3 may 2027, en abril/mayo",
+      "Unos 2340 US$, supera tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "barcelona-street-photo",
+     "status": "partial",
+     "score": 4.6,
+     "total": 1140,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–1 weeks (you asked for 2)",
+      "Closest start is Mar 22, 2027, outside April/May",
+      "About $1,140 total — within your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 1 semanas (pediste 2)",
+      "El inicio más cercano es el 22 mar 2027, fuera de abril/mayo",
+      "Unos 1140 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "lisbon-fado",
+     "status": "none",
+     "score": -90.2,
+     "total": 1940,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Starts May 3, 2027 — in April/May",
+      "About $1,940 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "Empieza el 3 may 2027, en abril/mayo",
+      "Unos 1940 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "lisbon-travel-writing",
+     "status": "none",
+     "score": -93,
+     "total": 2300,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Runs for your 2 weeks",
+      "Starts Apr 19, 2027 — in April/May",
+      "About $2,300 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "Empieza el 19 abr 2027, en abril/mayo",
+      "Unos 2300 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "kyoto-washoku",
+     "status": "partial",
+     "score": 11.8,
+     "total": 1300,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–1 weeks (you asked for 2)",
+      "Starts Apr 5, 2027 — in April/May",
+      "About $1,300 total — within your $1,500",
+      "Open to all levels",
+      "Cooking & Culinary — what you asked for"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 1 semanas (pediste 2)",
+      "Empieza el 5 abr 2027, en abril/mayo",
+      "Unos 1300 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Cocina y gastronomía: lo que pediste"
+     ]
+    },
+    {
+     "programId": "kyoto-ceramics",
+     "status": "none",
+     "score": -93.4,
+     "total": 4110,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 3–3 weeks (you asked for 2)",
+      "Starts May 10, 2027 — in April/May",
+      "About $4,110 — over your $1,500"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 3 a 3 semanas (pediste 2)",
+      "Empieza el 10 may 2027, en abril/mayo",
+      "Unos 4110 US$, supera tus 1500 US$"
+     ]
+    },
+    {
+     "programId": "chiangmai-farm-cooking",
+     "status": "none",
+     "score": -86.4,
+     "total": 910,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $910 total — within your $1,500",
+      "Open to all levels",
+      "Cooking & Culinary — what you asked for"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 910 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Cocina y gastronomía: lo que pediste"
+     ]
+    },
+    {
+     "programId": "chiangmai-yoga-foundations",
+     "status": "none",
+     "score": -96.6,
+     "total": 1825,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 3–3 weeks (you asked for 2)",
+      "No sessions in April/May",
+      "About $1,825 — over your $1,500"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 3 a 3 semanas (pediste 2)",
+      "No hay sesiones en abril/mayo",
+      "Unos 1825 US$, supera tus 1500 US$"
+     ]
+    },
+    {
+     "programId": "chiangmai-mountain-ecology",
+     "status": "none",
+     "score": -90.8,
+     "total": 1150,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $1,150 total — within your $1,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 1150 US$ en total, dentro de tus 1500 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "athens-philosophy-summer",
+     "status": "none",
+     "score": -93.4,
+     "total": 1965,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 2 weeks",
+      "Closest start is Jun 7, 2027, outside April/May",
+      "About $1,965 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 2 semanas",
+      "El inicio más cercano es el 7 jun 2027, fuera de abril/mayo",
+      "Unos 1965 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "athens-stoics-week",
+     "status": "partial",
+     "score": 6.2,
+     "total": 970,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 1–1 weeks (you asked for 2)",
+      "Starts Apr 19, 2027 — in April/May",
+      "About $970 total — within your $1,500",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 1 a 1 semanas (pediste 2)",
+      "Empieza el 19 abr 2027, en abril/mayo",
+      "Unos 970 US$ en total, dentro de tus 1500 US$",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "athens-archaeology-field",
+     "status": "none",
+     "score": -95.6,
+     "total": 3166,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 4–4 weeks",
+      "Closest start is Jun 7, 2027, outside April/May",
+      "About $3,166 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 4 a 4 semanas",
+      "El inicio más cercano es el 7 jun 2027, fuera de abril/mayo",
+      "Unos 3166 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "risk-antigua-visa-package",
+     "status": "none",
+     "score": -98,
+     "total": 3120,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Only runs 8–8 weeks",
+      "No sessions in April/May",
+      "About $3,120 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Solo dura de 8 a 8 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 3120 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "risk-florence-master-painter",
+     "status": "none",
+     "score": -92,
+     "total": 1728,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Runs for your 2 weeks",
+      "Starts Apr 5, 2027 — in April/May",
+      "About $1,728 — over your $1,500",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Dura tus 2 semanas",
+      "Empieza el 5 abr 2027, en abril/mayo",
+      "Unos 1728 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "risk-chiangmai-orphanage-volunteer",
+     "status": "none",
+     "score": -97,
+     "total": 1710,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Runs for your 2 weeks",
+      "No sessions in April/May",
+      "About $1,710 — over your $1,500",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Dura tus 2 semanas",
+      "No hay sesiones en abril/mayo",
+      "Unos 1710 US$, supera tus 1500 US$",
+      "Abierto a todos los niveles"
+     ]
+    }
+   ]
+  },
+  {
+   "request": {
+    "weeks": 1,
+    "months": [],
+    "budget": 4000,
+    "categories": [
+     "art",
+     "philosophy"
+    ],
+    "level": "advanced",
+    "passport": "GT"
+   },
+   "results": [
+    {
+     "programId": "antigua-spanish-immersion",
+     "status": "strong",
+     "score": 10.6,
+     "total": 475,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $475 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 475 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "antigua-spanish-volunteer",
+     "status": "partial",
+     "score": 3.2,
+     "total": 960,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–8 weeks (you asked for 1)",
+      "About $960 total — within your $4,000"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 8 semanas (pediste 1)",
+      "Unos 960 US$ en total, dentro de tus 4000 US$"
+     ]
+    },
+    {
+     "programId": "antigua-cooking-coffee",
+     "status": "strong",
+     "score": 10.8,
+     "total": 615,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $615 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 615 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "xela-spanish-community",
+     "status": "strong",
+     "score": 10.4,
+     "total": 380,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $380 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 380 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "xela-maya-anthropology",
+     "status": "none",
+     "score": -93.4,
+     "total": 2200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 3–3 weeks",
+      "About $2,200 total — within your $4,000"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 3 a 3 semanas",
+      "Unos 2200 US$ en total, dentro de tus 4000 US$"
+     ]
+    },
+    {
+     "programId": "xela-teaching-volunteer",
+     "status": "none",
+     "score": -94,
+     "total": 1495,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 4–8 weeks",
+      "About $1,495 total — within your $4,000"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 4 a 8 semanas",
+      "Unos 1495 US$ en total, dentro de tus 4000 US$"
+     ]
+    },
+    {
+     "programId": "oaxaca-market-mole",
+     "status": "partial",
+     "score": 7.8,
+     "total": 790,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $790 total — within your $4,000",
+      "Open to all levels",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 790 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "oaxaca-barro-ceramics",
+     "status": "partial",
+     "score": 9.4,
+     "total": 630,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $630 total — within your $4,000",
+      "Open to all levels",
+      "Art — what you asked for",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 630 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Arte: lo que pediste",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "oaxaca-zapotec-weaving",
+     "status": "partial",
+     "score": 4.2,
+     "total": 980,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Offered for 2–3 weeks (you asked for 1)",
+      "About $980 total — within your $4,000",
+      "Art — what you asked for",
+      "You'll likely need a visa — allow extra time"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Se ofrece de 2 a 3 semanas (pediste 1)",
+      "Unos 980 US$ en total, dentro de tus 4000 US$",
+      "Arte: lo que pediste",
+      "Probablemente necesitarás visa: calcula más tiempo"
+     ]
+    },
+    {
+     "programId": "florence-renaissance-drawing",
+     "status": "strong",
+     "score": 12.6,
+     "total": 1140,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $1,140 total — within your $4,000",
+      "Open to all levels",
+      "Art — what you asked for"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 1140 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Arte: lo que pediste"
+     ]
+    },
+    {
+     "programId": "florence-art-history-walks",
+     "status": "strong",
+     "score": 8.4,
+     "total": 1200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $1,200 total — within your $4,000"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 1200 US$ en total, dentro de tus 4000 US$"
+     ]
+    },
+    {
+     "programId": "bologna-fresh-pasta",
+     "status": "strong",
+     "score": 10.8,
+     "total": 1080,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $1,080 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 1080 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "bologna-italian-cucina",
+     "status": "partial",
+     "score": 5.2,
+     "total": 1662,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–8 weeks (you asked for 1)",
+      "About $1,662 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 8 semanas (pediste 1)",
+      "Unos 1662 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "barcelona-modernisme-sketch",
+     "status": "partial",
+     "score": 3.4,
+     "total": 2340,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–2 weeks (you asked for 1)",
+      "About $2,340 total — within your $4,000"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 1)",
+      "Unos 2340 US$ en total, dentro de tus 4000 US$"
+     ]
+    },
+    {
+     "programId": "barcelona-street-photo",
+     "status": "strong",
+     "score": 9.6,
+     "total": 1140,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $1,140 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 1140 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "lisbon-fado",
+     "status": "strong",
+     "score": 9.8,
+     "total": 990,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $990 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 990 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "lisbon-travel-writing",
+     "status": "partial",
+     "score": 2,
+     "total": 2300,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Offered for 2–2 weeks (you asked for 1)",
+      "About $2,300 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 1)",
+      "Unos 2300 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "kyoto-washoku",
+     "status": "partial",
+     "score": 7.8,
+     "total": 1300,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $1,300 total — within your $4,000",
+      "Open to all levels",
+      "Visa rules unconfirmed for your passport"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 1300 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Requisitos de visa sin confirmar para tu pasaporte"
+     ]
+    },
+    {
+     "programId": "kyoto-ceramics",
+     "status": "none",
+     "score": -93.4,
+     "total": 4110,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 3–3 weeks",
+      "About $4,110 — slightly over your $4,000",
+      "Art — what you asked for",
+      "Visa rules unconfirmed for your passport"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 3 a 3 semanas",
+      "Unos 4110 US$, algo más de tus 4000 US$",
+      "Arte: lo que pediste",
+      "Requisitos de visa sin confirmar para tu pasaporte"
+     ]
+    },
+    {
+     "programId": "chiangmai-farm-cooking",
+     "status": "partial",
+     "score": 7.6,
+     "total": 455,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $455 total — within your $4,000",
+      "Open to all levels",
+      "Visa rules unconfirmed for your passport"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 455 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Requisitos de visa sin confirmar para tu pasaporte"
+     ]
+    },
+    {
+     "programId": "chiangmai-yoga-foundations",
+     "status": "none",
+     "score": -93.6,
+     "total": 1825,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 3–3 weeks",
+      "About $1,825 total — within your $4,000",
+      "Visa rules unconfirmed for your passport"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 3 a 3 semanas",
+      "Unos 1825 US$ en total, dentro de tus 4000 US$",
+      "Requisitos de visa sin confirmar para tu pasaporte"
+     ]
+    },
+    {
+     "programId": "chiangmai-mountain-ecology",
+     "status": "partial",
+     "score": 4.2,
+     "total": 1150,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–2 weeks (you asked for 1)",
+      "About $1,150 total — within your $4,000",
+      "Open to all levels",
+      "Visa rules unconfirmed for your passport"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 1)",
+      "Unos 1150 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Requisitos de visa sin confirmar para tu pasaporte"
+     ]
+    },
+    {
+     "programId": "athens-philosophy-summer",
+     "status": "partial",
+     "score": 7.6,
+     "total": 1965,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Offered for 2–2 weeks (you asked for 1)",
+      "About $1,965 total — within your $4,000",
+      "Open to all levels",
+      "Philosophy — what you asked for"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Se ofrece de 2 a 2 semanas (pediste 1)",
+      "Unos 1965 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Filosofía: lo que pediste"
+     ]
+    },
+    {
+     "programId": "athens-stoics-week",
+     "status": "strong",
+     "score": 11.2,
+     "total": 970,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 1 weeks",
+      "About $970 total — within your $4,000",
+      "Philosophy — what you asked for"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 1 semanas",
+      "Unos 970 US$ en total, dentro de tus 4000 US$",
+      "Filosofía: lo que pediste"
+     ]
+    },
+    {
+     "programId": "athens-archaeology-field",
+     "status": "none",
+     "score": -92.6,
+     "total": 3166,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 4–4 weeks",
+      "About $3,166 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 4 a 4 semanas",
+      "Unos 3166 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-antigua-visa-package",
+     "status": "none",
+     "score": -95,
+     "total": 3120,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Only runs 8–8 weeks",
+      "About $3,120 total — within your $4,000",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Solo dura de 8 a 8 semanas",
+      "Unos 3120 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "risk-florence-master-painter",
+     "status": "none",
+     "score": -91,
+     "total": 1728,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Offered for 2–2 weeks (you asked for 1)",
+      "About $1,728 total — within your $4,000",
+      "Open to all levels",
+      "Art — what you asked for"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Se ofrece de 2 a 2 semanas (pediste 1)",
+      "Unos 1728 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Arte: lo que pediste"
+     ]
+    },
+    {
+     "programId": "risk-chiangmai-orphanage-volunteer",
+     "status": "none",
+     "score": -94,
+     "total": 1005,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Runs for your 1 weeks",
+      "About $1,005 total — within your $4,000",
+      "Open to all levels",
+      "Visa rules unconfirmed for your passport"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Dura tus 1 semanas",
+      "Unos 1005 US$ en total, dentro de tus 4000 US$",
+      "Abierto a todos los niveles",
+      "Requisitos de visa sin confirmar para tu pasaporte"
+     ]
+    }
+   ]
+  },
+  {
+   "request": {
+    "weeks": 6,
+    "months": [
+     0
+    ],
+    "budget": 900,
+    "accessibility": [
+     "step-free"
+    ],
+    "housing": "hostel"
+   },
+   "results": [
+    {
+     "programId": "antigua-spanish-immersion",
+     "status": "none",
+     "score": -89.4,
+     "total": 2710,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 6 weeks",
+      "Starts Jan 11, 2027 — in January",
+      "About $2,710 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 6 semanas",
+      "Empieza el 11 ene 2027, en enero",
+      "Unos 2710 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "antigua-spanish-volunteer",
+     "status": "none",
+     "score": -94.8,
+     "total": 2800,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 6 weeks",
+      "Closest start is Feb 1, 2027, outside January",
+      "About $2,800 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 6 semanas",
+      "El inicio más cercano es el 1 feb 2027, fuera de enero",
+      "Unos 2800 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "antigua-cooking-coffee",
+     "status": "none",
+     "score": -91.2,
+     "total": 1230,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–2 weeks",
+      "Starts Jan 18, 2027 — in January",
+      "About $1,230 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 2 semanas",
+      "Empieza el 18 ene 2027, en enero",
+      "Unos 1230 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "xela-spanish-community",
+     "status": "none",
+     "score": -89.6,
+     "total": 2165,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 6 weeks",
+      "Starts Jan 4, 2027 — in January",
+      "About $2,165 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 6 semanas",
+      "Empieza el 4 ene 2027, en enero",
+      "Unos 2165 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "xela-maya-anthropology",
+     "status": "none",
+     "score": -96.4,
+     "total": 2200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 3–3 weeks",
+      "No sessions in January",
+      "About $2,200 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 3 a 3 semanas",
+      "No hay sesiones en enero",
+      "Unos 2200 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "xela-teaching-volunteer",
+     "status": "none",
+     "score": -92,
+     "total": 2225,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 6 weeks",
+      "Starts Jan 11, 2027 — in January",
+      "About $2,225 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 6 semanas",
+      "Empieza el 11 ene 2027, en enero",
+      "Unos 2225 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "oaxaca-market-mole",
+     "status": "none",
+     "score": -94.2,
+     "total": 1530,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–2 weeks",
+      "Closest start is Feb 8, 2027, outside January",
+      "About $1,530 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 2 semanas",
+      "El inicio más cercano es el 8 feb 2027, fuera de enero",
+      "Unos 1530 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "oaxaca-barro-ceramics",
+     "status": "none",
+     "score": -92.6,
+     "total": 2430,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–4 weeks",
+      "Starts Jan 11, 2027 — in January",
+      "About $2,430 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 4 semanas",
+      "Empieza el 11 ene 2027, en enero",
+      "Unos 2430 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "oaxaca-zapotec-weaving",
+     "status": "none",
+     "score": -98.8,
+     "total": 1470,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Only runs 2–3 weeks",
+      "Closest start is Feb 15, 2027, outside January",
+      "About $1,470 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Solo dura de 2 a 3 semanas",
+      "El inicio más cercano es el 15 feb 2027, fuera de enero",
+      "Unos 1470 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "florence-renaissance-drawing",
+     "status": "none",
+     "score": -95.4,
+     "total": 4380,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–4 weeks",
+      "No sessions in January",
+      "About $4,380 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 4 semanas",
+      "No hay sesiones en enero",
+      "Unos 4380 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "florence-art-history-walks",
+     "status": "none",
+     "score": -96.6,
+     "total": 1200,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "No sessions in January",
+      "About $1,200 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "No hay sesiones en enero",
+      "Unos 1200 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "bologna-fresh-pasta",
+     "status": "none",
+     "score": -94.2,
+     "total": 2160,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–2 weeks",
+      "No sessions in January",
+      "About $2,160 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 2 semanas",
+      "No hay sesiones en enero",
+      "Unos 2160 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "bologna-italian-cucina",
+     "status": "none",
+     "score": -89.8,
+     "total": 4846,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Runs for your 6 weeks",
+      "Starts Jan 18, 2027 — in January",
+      "About $4,846 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Dura tus 6 semanas",
+      "Empieza el 18 ene 2027, en enero",
+      "Unos 4846 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "barcelona-modernisme-sketch",
+     "status": "none",
+     "score": -96.6,
+     "total": 2340,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 2–2 weeks",
+      "No sessions in January",
+      "About $2,340 — over your $900"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 2 a 2 semanas",
+      "No hay sesiones en enero",
+      "Unos 2340 US$, supera tus 900 US$"
+     ]
+    },
+    {
+     "programId": "barcelona-street-photo",
+     "status": "none",
+     "score": -95.4,
+     "total": 1140,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "No sessions in January",
+      "About $1,140 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "No hay sesiones en enero",
+      "Unos 1140 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "lisbon-fado",
+     "status": "none",
+     "score": -95.2,
+     "total": 2890,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–3 weeks",
+      "No sessions in January",
+      "About $2,890 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 3 semanas",
+      "No hay sesiones en enero",
+      "Unos 2890 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "lisbon-travel-writing",
+     "status": "none",
+     "score": -98,
+     "total": 2300,
+     "sessionId": "s1",
+     "reasons": [
+      "School not fully verified yet — ask for refund terms in writing",
+      "Only runs 2–2 weeks",
+      "No sessions in January",
+      "About $2,300 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela aún no verificada del todo: pide los términos de reembolso por escrito",
+      "Solo dura de 2 a 2 semanas",
+      "No hay sesiones en enero",
+      "Unos 2300 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "kyoto-washoku",
+     "status": "none",
+     "score": -94.2,
+     "total": 1300,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "No sessions in January",
+      "About $1,300 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "No hay sesiones en enero",
+      "Unos 1300 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "kyoto-ceramics",
+     "status": "none",
+     "score": -96.4,
+     "total": 4110,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 3–3 weeks",
+      "No sessions in January",
+      "About $4,110 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 3 a 3 semanas",
+      "No hay sesiones en enero",
+      "Unos 4110 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "chiangmai-farm-cooking",
+     "status": "none",
+     "score": -91.4,
+     "total": 910,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–2 weeks",
+      "Starts Jan 11, 2027 — in January",
+      "About $910 — slightly over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 2 semanas",
+      "Empieza el 11 ene 2027, en enero",
+      "Unos 910 US$, algo más de tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "chiangmai-yoga-foundations",
+     "status": "none",
+     "score": -93.6,
+     "total": 1825,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 3–3 weeks",
+      "Starts Jan 4, 2027 — in January",
+      "About $1,825 — over your $900",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 3 a 3 semanas",
+      "Empieza el 4 ene 2027, en enero",
+      "Unos 1825 US$, supera tus 900 US$",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "chiangmai-mountain-ecology",
+     "status": "none",
+     "score": -95.8,
+     "total": 1150,
+     "sessionId": "s2",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 2–2 weeks",
+      "Closest start is Feb 1, 2027, outside January",
+      "About $1,150 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 2 a 2 semanas",
+      "El inicio más cercano es el 1 feb 2027, fuera de enero",
+      "Unos 1150 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "athens-philosophy-summer",
+     "status": "none",
+     "score": -95.4,
+     "total": 1965,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 2–2 weeks",
+      "No sessions in January",
+      "About $1,965 — over your $900",
+      "Open to all levels"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 2 a 2 semanas",
+      "No hay sesiones en enero",
+      "Unos 1965 US$, supera tus 900 US$",
+      "Abierto a todos los niveles"
+     ]
+    },
+    {
+     "programId": "athens-stoics-week",
+     "status": "none",
+     "score": -96.8,
+     "total": 970,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 1–1 weeks",
+      "No sessions in January",
+      "About $970 — slightly over your $900"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 1 a 1 semanas",
+      "No hay sesiones en enero",
+      "Unos 970 US$, algo más de tus 900 US$"
+     ]
+    },
+    {
+     "programId": "athens-archaeology-field",
+     "status": "none",
+     "score": -95.6,
+     "total": 3166,
+     "sessionId": "s1",
+     "reasons": [
+      "Verified school with a written refund policy",
+      "Only runs 4–4 weeks",
+      "No sessions in January",
+      "About $3,166 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "Escuela verificada con política de reembolso por escrito",
+      "Solo dura de 4 a 4 semanas",
+      "No hay sesiones en enero",
+      "Unos 3166 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "risk-antigua-visa-package",
+     "status": "none",
+     "score": -95,
+     "total": 3120,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Only runs 8–8 weeks",
+      "Starts Jan 4, 2027 — in January",
+      "About $3,120 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Solo dura de 8 a 8 semanas",
+      "Empieza el 4 ene 2027, en enero",
+      "Unos 3120 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "risk-florence-master-painter",
+     "status": "none",
+     "score": -97,
+     "total": 1728,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Only runs 2–2 weeks",
+      "No sessions in January",
+      "About $1,728 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Solo dura de 2 a 2 semanas",
+      "No hay sesiones en enero",
+      "Unos 1728 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    },
+    {
+     "programId": "risk-chiangmai-orphanage-volunteer",
+     "status": "none",
+     "score": -94,
+     "total": 4530,
+     "sessionId": "s1",
+     "reasons": [
+      "Failed verification — Juni won't recommend this school",
+      "Runs for your 6 weeks",
+      "Starts Jan 4, 2027 — in January",
+      "About $4,530 — over your $900",
+      "Open to all levels",
+      "Some of your accessibility needs aren't confirmed — ask the school"
+     ],
+     "reasonsEs": [
+      "No superó la verificación: Juni no recomienda esta escuela",
+      "Dura tus 6 semanas",
+      "Empieza el 4 ene 2027, en enero",
+      "Unos 4530 US$, supera tus 900 US$",
+      "Abierto a todos los niveles",
+      "Algunas necesidades de accesibilidad no están confirmadas: pregunta a la escuela"
+     ]
+    }
+   ]
+  }
+ ]
+}

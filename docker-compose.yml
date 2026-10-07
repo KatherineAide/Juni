@@ -1,0 +1,30 @@
+# Juni Phase 2 stack: PostgreSQL + the FastAPI/LangGraph backend.
+# Run the front-end separately with NEXT_PUBLIC_JUNI_API_URL=http://localhost:8000 npm run dev
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: juni
+      POSTGRES_PASSWORD: juni
+      POSTGRES_DB: juni
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U juni"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build: ./backend
+    environment:
+      JUNI_DATABASE_URL: postgresql+psycopg://juni:juni@db:5432/juni
+      JUNI_CORS_ORIGINS: '["http://localhost:3000"]'
+      # Without a key the agents use rule-based fallbacks (no web search).
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    ports: ["8000:8000"]
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

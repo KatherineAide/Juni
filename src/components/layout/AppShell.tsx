@@ -1,6 +1,6 @@
 "use client";
 
-import { Bell, Compass, GraduationCap, Heart, Luggage, MessageCircleHeart, ShieldCheck, Sparkles, UserRound } from "lucide-react";
+import { Bell, Compass, Gauge, GraduationCap, Heart, Luggage, MessageCircleHeart, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
@@ -18,7 +18,9 @@ const mainNav: { href: string; key: MessageKey; short?: MessageKey; Icon: typeof
 ];
 
 function isActive(pathname: string, href: string) {
-  return pathname === href || pathname.startsWith(href + "/");
+  // "/" is the chat too. Static exports use trailing slashes ("/chat/").
+  const path = pathname === "/" ? "/chat" : pathname.replace(/\/$/, "");
+  return path === href || path.startsWith(href + "/");
 }
 
 export function Logo({ className = "" }: { className?: string }) {
@@ -70,6 +72,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     { href: "/notifications", label: t("nav.notifications"), Icon: Bell, count: unread },
     { href: "/trust", label: t("nav.trust"), Icon: ShieldCheck, count: 0 },
   ];
+  // Team tool: shown in the desktop sidebar only, not in the traveler-facing mobile bar.
+  const team = [{ href: "/evals", label: t("nav.evals"), Icon: Gauge, count: 0 }];
 
   return (
     <div className="min-h-dvh lg:pl-64">
@@ -111,6 +115,23 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 <Icon aria-hidden className="size-[18px]" />
                 <span className="flex-1">{label}</span>
                 {count > 0 && <span className="rounded-full bg-clay-600 px-2 text-xs font-bold text-white">{count}</span>}
+              </Link>
+            );
+          })}
+        </nav>
+        <hr className="my-5 border-line" />
+        <nav aria-label={t("nav.evals")} className="flex flex-col gap-1">
+          {team.map(({ href, label, Icon }) => {
+            const active = isActive(pathname, href);
+            return (
+              <Link
+                key={href}
+                href={href}
+                aria-current={active ? "page" : undefined}
+                className={`flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium ${active ? "bg-clay-50 text-clay-700" : "text-muted hover:bg-sand-100 hover:text-ink"}`}
+              >
+                <Icon aria-hidden className="size-[18px]" />
+                {label}
               </Link>
             );
           })}
