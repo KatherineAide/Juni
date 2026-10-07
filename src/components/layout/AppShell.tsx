@@ -18,7 +18,9 @@ const mainNav: { href: string; key: MessageKey; short?: MessageKey; Icon: typeof
 ];
 
 function isActive(pathname: string, href: string) {
-  return pathname === href || pathname.startsWith(href + "/");
+  // "/" is the chat too. Static exports use trailing slashes ("/chat/").
+  const path = pathname === "/" ? "/chat" : pathname.replace(/\/$/, "");
+  return path === href || path.startsWith(href + "/");
 }
 
 export function Logo({ className = "" }: { className?: string }) {

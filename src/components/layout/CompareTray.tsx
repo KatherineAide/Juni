@@ -11,7 +11,7 @@ export function CompareTray() {
   const { t, lang } = useT();
   const compare = useAppState((s) => s.compare);
   const pathname = usePathname();
-  if (!compare.length || pathname === "/programs/compare") return null;
+  if (!compare.length || pathname.replace(/\/$/, "") === "/programs/compare") return null;
   return (
     <div className="fixed inset-x-3 bottom-20 z-30 mx-auto max-w-xl rounded-2xl border border-line bg-ink p-3 text-white shadow-xl lg:bottom-6 lg:left-64 lg:right-0">
       <div className="flex flex-wrap items-center gap-2">
