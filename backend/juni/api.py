@@ -16,6 +16,8 @@ from .agents.application import Application
 from .catalog import Catalog
 from .config import Settings, get_settings
 from .db import AgentMessageRow, ChatSessionRow, init_db, make_engine
+from .evals.runner import check_catalog, load_cases, run_suite
+from .evals.store import get_run, list_runs, save_run
 from .graph import JuniGraph
 from .llm import Claude
 from .models import ActionProposal, AgentStep, DraftPart, L, Profile, SharedState, StepsPart, TextPart, Wire
@@ -172,6 +174,30 @@ def create_app(settings: Settings | None = None, claude: Claude | None = None) -
         s.commit()
         return {"proposal": prop.model_dump(by_alias=True), "parts": dumped,
                 "draft": draft.model_dump(by_alias=True) if draft else None}
+
+    # ───────────── evaluation (Phase 3) ─────────────
+
+    @app.get("/evals/cases")
+    def eval_cases():
+        return {"cases": [c.model_dump(by_alias=True) for c in load_cases()], "checks": check_catalog()}
+
+    @app.get("/evals/runs")
+    def eval_runs(request: Request):
+        return {"runs": list_runs(request.app.state.factory)}
+
+    @app.get("/evals/runs/{run_id}")
+    def eval_run(run_id: str, request: Request):
+        run = get_run(request.app.state.factory, run_id)
+        if run is None:
+            raise HTTPException(404, "Evaluation run not found")
+        return run
+
+    @app.post("/evals/runs", status_code=201)
+    def start_eval_run(request: Request):
+        # Runs synchronously: a few ms per turn with rule-based agents, minutes when Claude is on.
+        run = run_suite(request.app.state.catalog, request.app.state.claude)
+        save_run(request.app.state.factory, run)
+        return run.model_dump(by_alias=True, mode="json")
 
     # ───────────── catalog ─────────────
 

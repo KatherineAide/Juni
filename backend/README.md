@@ -75,6 +75,23 @@ logic, so the API keeps working without a key.
 There's no user authentication yet — the front-end sends the profile with each request.
 Add auth before storing real user data.
 
+## Evaluation
+
+`juni/evals/` plays the test travelers in `cases.json` through the agent graph and scores each
+reply (safety, approval gate, constraints, understanding, relevance, follow-ups, flags, honesty,
+visa, proposals), plus latency and Claude calls/tokens. See the root README for the check list.
+
+```bash
+uv run python -m juni.evals [--save] [--out run.json] [--snapshot ../src/data/eval-snapshot.json] [--min-pass 1.0]
+```
+
+API: `GET /evals/cases`, `GET /evals/runs`, `GET /evals/runs/{id}`, `POST /evals/runs` (runs the
+suite now and stores it; synchronous — fast with rule-based agents, minutes with Claude).
+
+Add a traveler by appending to `cases.json`: a `profile`, the `turns` they type (or a
+`focusProgramId`), and `expect` keys — `request`, `topAnyOf`, `asks`, `flagged`,
+`neverRecommend`, `noRecommendations`, `visaWarning`, `proposal`, `strongMustHaveAccessibility`.
+
 ## Tests
 
 ```bash

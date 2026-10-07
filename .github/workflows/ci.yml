@@ -45,3 +45,8 @@ jobs:
         run: uv run pytest -q
         env:
           JUNI_TEST_DATABASE_URL: postgresql+psycopg://juni:juni@localhost:5432/juni_test
+      - name: Evaluation suite (rule-based agents must pass every test traveler)
+        run: uv run python -m juni.evals --min-pass 1.0
+        env:
+          JUNI_DATABASE_URL: sqlite:///./eval.db
+          JUNI_USE_LLM: "false"

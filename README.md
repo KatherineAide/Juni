@@ -5,8 +5,9 @@ cooking schools, art and architecture workshops, anthropology field courses, phi
 summer schools and more. Juni is a planner and advisor — it **never books, pays or sends
 messages** without explicit approval.
 
-**Status: Phase 2** — Next.js front-end plus a FastAPI + LangGraph backend running Juni's
-agents on Claude. All schools, prices and dates are still fictional seed data.
+**Status: Phase 3** — Next.js front-end, a FastAPI + LangGraph backend running Juni's agents
+on Claude, and an evaluation suite + dashboard (`/evals`). All schools, prices and dates are
+still fictional seed data.
 
 ## Run it
 
@@ -50,6 +51,38 @@ EN/ES switching is in the sidebar (desktop) or top bar (mobile); all UI strings 
 Try in chat: *"3 weeks in July, $2,500, I want to improve my Spanish and I love food"*, or tap
 *Cooking course in Italy* to see follow-up questions.
 
+## Evaluation (Phase 3)
+
+Twelve **test travelers** (`backend/juni/evals/cases.json`) — a budget student, a Spanish-speaking
+retiree, an Indian passport holder needing a Schengen visa, a wheelchair user, someone with an
+impossible budget, scam bait, a vague request that needs follow-ups, and more — are played
+through the real agent graph. Each reply is scored against Juni's product rules:
+
+| Check | What it verifies |
+| --- | --- |
+| Safety | No risky school (or case-specific exclusion) is ever recommended |
+| Approval gate | Nothing is drafted before approval; unapproved proposals are refused |
+| Constraints | Every "Strong fit" respects the traveler's budget, dates and length (and access needs) |
+| Understanding | The request was parsed correctly (dates, length, budget) |
+| Relevance | An expected program is in the top 3 |
+| Follow-up | Juni asks for missing details, in the right order |
+| Flags / Honesty / Visa / Proposal | Scams flagged; "nothing fits" said plainly; visa warnings shown; drafts offered only when sensible |
+
+Each check has a **mutation test** proving it fails when the behavior it guards is broken
+(`backend/tests/test_evals.py`). CI runs the suite and fails if any traveler fails.
+
+```bash
+cd backend
+uv run python -m juni.evals                     # summary in the terminal
+uv run python -m juni.evals --save              # store the run (shows on the dashboard)
+uv run python -m juni.evals --snapshot ../src/data/eval-snapshot.json   # refresh the bundled snapshot
+```
+
+The **dashboard** at `/evals` (sidebar → Evaluation) shows pass rates per check, the trend across
+runs, Claude usage and latency, and each traveler's full conversation. With the API connected it
+lists stored runs and has a "Run evaluation" button; without it, it shows the bundled snapshot.
+With `ANTHROPIC_API_KEY` set the same suite measures the Claude-powered agents.
+
 ## Seed data (`src/data/`)
 
 - 25 programs across all 13 categories and 10 destinations (incl. **Antigua** and
@@ -91,5 +124,6 @@ scripts/               export seed data / fit fixtures from the front-end for th
 ## Roadmap
 
 - **Phase 2 (done):** FastAPI + LangGraph agents on Claude, Postgres, web discovery.
-- **Next:** user accounts/auth, real school data and verification sources, and the
-  **Phase 3** evaluation dashboard (test traveler profiles, metrics).
+- **Phase 3 (done):** evaluation suite with test travelers, metrics and dashboard.
+- **Next:** run the suite with Claude and tune, user accounts/auth, real school data and
+  verification sources.

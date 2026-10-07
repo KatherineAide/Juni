@@ -50,11 +50,14 @@ const MONTHS: [RegExp, number][] = [
   [/\b(december|dec|diciembre)\b/, 11],
 ];
 
+// A season names dates, except in a program name: "summer school", "escuela de verano".
+const season = (words: string) =>
+  new RegExp(`(?<!escuela de )(?<!curso de )(?<!cursos de )(?<!programa de )\\b(${words})\\b(?!\\s+(?:school|course|program|programme|camp|session|institute|academy))`);
 const SEASONS: [RegExp, number[]][] = [
-  [/\b(summer|verano)\b/, [5, 6, 7]],
-  [/\b(winter|invierno)\b/, [11, 0, 1]],
-  [/\b(spring|primavera)\b/, [2, 3, 4]],
-  [/\b(fall|autumn|otoño|otono)\b/, [8, 9, 10]],
+  [season("summer|verano"), [5, 6, 7]],
+  [season("winter|invierno"), [11, 0, 1]],
+  [season("spring|primavera"), [2, 3, 4]],
+  [season("fall|autumn|otoño|otono"), [8, 9, 10]],
 ];
 
 const NUMBER_WORDS: Record<string, number> = {

@@ -55,9 +55,14 @@ MONTHS = [
     (r"\b(august|aug|agosto)\b", 7), (r"\b(september|sept|sep|septiembre|setiembre)\b", 8),
     (r"\b(october|oct|octubre)\b", 9), (r"\b(november|nov|noviembre)\b", 10), (r"\b(december|dec|diciembre)\b", 11),
 ]
+# A season names dates, except in a program name: "summer school", "escuela de verano".
+_NOT_A_PROGRAM = r"(?<!escuela de )(?<!curso de )(?<!cursos de )(?<!programa de )"
+_NOT_A_PROGRAM_AFTER = r"(?!\s+(?:school|course|program|programme|camp|session|institute|academy))"
 SEASONS = [
-    (r"\b(summer|verano)\b", [5, 6, 7]), (r"\b(winter|invierno)\b", [11, 0, 1]),
-    (r"\b(spring|primavera)\b", [2, 3, 4]), (r"\b(fall|autumn|otoño|otono)\b", [8, 9, 10]),
+    (_NOT_A_PROGRAM + r"\b(summer|verano)\b" + _NOT_A_PROGRAM_AFTER, [5, 6, 7]),
+    (_NOT_A_PROGRAM + r"\b(winter|invierno)\b" + _NOT_A_PROGRAM_AFTER, [11, 0, 1]),
+    (_NOT_A_PROGRAM + r"\b(spring|primavera)\b" + _NOT_A_PROGRAM_AFTER, [2, 3, 4]),
+    (_NOT_A_PROGRAM + r"\b(fall|autumn|otoño|otono)\b" + _NOT_A_PROGRAM_AFTER, [8, 9, 10]),
 ]
 NUMBER_WORDS = {"one": 1, "a": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8,
                 "un": 1, "una": 1, "uno": 1, "dos": 2, "tres": 3, "cuatro": 4, "cinco": 5, "seis": 6, "siete": 7, "ocho": 8}
