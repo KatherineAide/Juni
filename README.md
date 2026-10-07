@@ -5,9 +5,12 @@ cooking schools, art and architecture workshops, anthropology field courses, phi
 summer schools and more. Juni is a planner and advisor — it **never books, pays or sends
 messages** without explicit approval.
 
-**Status: Phase 1** — front-end with mock data. All schools, prices and dates are fictional.
+**Status: Phase 2** — Next.js front-end plus a FastAPI + LangGraph backend running Juni's
+agents on Claude. All schools, prices and dates are still fictional seed data.
 
 ## Run it
+
+Front-end only (in-browser mock agents):
 
 ```bash
 npm install
@@ -15,6 +18,17 @@ npm run dev        # http://localhost:3000
 npm test           # agent/fit unit tests (vitest)
 npm run lint && npm run typecheck && npm run build
 ```
+
+With the Phase 2 backend (real agents — see [backend/README.md](backend/README.md)):
+
+```bash
+cd backend && uv sync && ANTHROPIC_API_KEY=... uv run uvicorn juni.main:app --port 8000
+# in another terminal, from the repo root:
+NEXT_PUBLIC_JUNI_API_URL=http://localhost:8000 npm run dev
+```
+
+Or `ANTHROPIC_API_KEY=... docker compose up --build` for Postgres + API. Without an API key the
+backend still works, using rule-based fallbacks.
 
 Stack: Next.js 16 (App Router, Cache Components) · TypeScript · Tailwind CSS v4 · lucide-react.
 
@@ -61,8 +75,9 @@ src/
     agents/mock.ts     Phase 1 in-browser implementation of those contracts
     fit.ts, estimate.ts  hard constraints + soft ranking, total trip cost
     store.ts           client state persisted to localStorage (swap for the API in Phase 2)
-db/schema.sql          initial PostgreSQL data model
-backend/               Phase 2 FastAPI + LangGraph contracts (interfaces only)
+db/schema.sql          target relational PostgreSQL data model
+backend/               Phase 2 FastAPI + LangGraph service (agents, API, tests)
+scripts/               export seed data / fit fixtures from the front-end for the backend
 ```
 
 ## Trust & safety rules enforced in code
@@ -75,5 +90,6 @@ backend/               Phase 2 FastAPI + LangGraph contracts (interfaces only)
 
 ## Roadmap
 
-- **Phase 2:** FastAPI + LangGraph agents, Postgres, real search and verification tools.
-- **Phase 3:** evaluation dashboard (test traveler profiles, metrics).
+- **Phase 2 (done):** FastAPI + LangGraph agents on Claude, Postgres, web discovery.
+- **Next:** user accounts/auth, real school data and verification sources, and the
+  **Phase 3** evaluation dashboard (test traveler profiles, metrics).

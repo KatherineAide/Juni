@@ -16,7 +16,7 @@ export const es: Record<MessageKey, string> = {
   "nav.skip": "Saltar al contenido",
   "lang.label": "Idioma",
   "lang.switchTo": "Switch to English",
-  "mock.banner": "Demo fase 1 · todas las escuelas, precios y fechas son datos de prueba",
+  "mock.banner": "Demo · todas las escuelas, precios y fechas son datos de prueba",
 
   "common.perWeek": "/semana",
   "common.weeks": "{n} semanas",
@@ -141,6 +141,9 @@ export const es: Record<MessageKey, string> = {
   "chat.reply.rejected": "Sin problema, no redactaré nada. ¿Quieres afinar la búsqueda o comparar opciones?",
   "chat.focusPrompt": "Háblame de “{title}”. ¿Encaja conmigo?",
   "chat.nextPrompt": "Planea mi próxima experiencia según las anteriores.",
+  "chat.web": "Encontrado en la web: sin verificar por Juni",
+  "chat.webPrice": "{price}/semana (sin verificar)",
+  "chat.webOpen": "Abrir su sitio",
   "chat.viewProgram": "Ver programa",
 
   "dest.title": "Destinos",

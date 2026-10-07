@@ -1,6 +1,6 @@
 "use client";
 
-import { AlertTriangle, Check, ChevronDown, ClipboardCopy, Mail, PencilLine, ShieldCheck, ThumbsDown, ThumbsUp, Workflow } from "lucide-react";
+import { AlertTriangle, Check, ChevronDown, CircleDashed, ClipboardCopy, ExternalLink, Globe, Mail, PencilLine, ShieldCheck, ThumbsDown, ThumbsUp, Workflow } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { getDestination } from "@/data/destinations";
@@ -8,8 +8,8 @@ import { getProgram } from "@/data/programs";
 import { getSchool } from "@/data/schools";
 import { useT } from "@/i18n";
 import type { ActionProposal } from "@/lib/agents/types";
-import type { ChatPart } from "@/lib/chat";
-import { loc } from "@/lib/format";
+import type { ChatPart, WebFinding } from "@/lib/chat";
+import { loc, money } from "@/lib/format";
 import type { DraftMessage, FitResult } from "@/lib/types";
 import { CompareTable } from "../programs/CompareTable";
 import { CostBreakdown } from "../programs/CostBreakdown";
@@ -72,7 +72,52 @@ export function Part({ part, interactive }: { part: ChatPart; interactive: boole
       return <ProposalCard proposal={part.proposal} interactive={interactive} />;
     case "draft":
       return <DraftCard draft={part.draft} />;
+    case "web":
+      return <WebFindings findings={part.findings} />;
   }
+}
+
+/** Leads Scout found on the web. Shown apart from (and never ranked with) verified programs. */
+function WebFindings({ findings }: { findings: WebFinding[] }) {
+  const { t, lang } = useT();
+  return (
+    <section aria-label={t("chat.web")} className="rounded-2xl border border-dashed border-slate-300 bg-white p-4">
+      <h3 className="mb-2 flex items-center gap-2 font-bold">
+        <Globe aria-hidden className="size-5 text-slate-600" />
+        {t("chat.web")}
+      </h3>
+      <ul className="space-y-3">
+        {findings.map((f) => (
+          <li key={f.url} className="rounded-xl bg-slate-50 p-3 text-sm">
+            <p className="flex flex-wrap items-center gap-2 font-semibold">
+              {f.title}
+              <span className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-100 px-2 py-0.5 text-xs font-bold text-slate-700">
+                <CircleDashed aria-hidden className="size-3" />
+                {t("verify.unverified")}
+              </span>
+            </p>
+            <p className="text-muted">
+              {f.school} · {f.city}, {f.country}
+              {f.weeks ? ` · ${f.weeks}` : ""}
+            </p>
+            {f.pricePerWeekUsd != null && <p className="mt-1">{t("chat.webPrice", { price: money(f.pricePerWeekUsd, lang) })}</p>}
+            {f.notes && <p className="mt-1 text-muted">{f.notes}</p>}
+            {f.redFlags.length > 0 && (
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {f.redFlags.map((flag) => (
+                  <RiskFlagPill key={flag}>{flag}</RiskFlagPill>
+                ))}
+              </div>
+            )}
+            <a href={f.url} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 inline-flex items-center gap-1 font-semibold text-lagoon-700 underline">
+              {t("chat.webOpen")}
+              <ExternalLink aria-hidden className="size-3.5" />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
 }
 
 function Results({ results, flagged }: { results: FitResult[]; flagged: FitResult[] }) {

@@ -15,7 +15,7 @@ export const en = {
   "nav.skip": "Skip to content",
   "lang.label": "Language",
   "lang.switchTo": "Cambiar a español",
-  "mock.banner": "Phase 1 demo · all schools, prices and dates are mock data",
+  "mock.banner": "Demo · all schools, prices and dates are mock data",
 
   // Common
   "common.perWeek": "/week",
@@ -143,6 +143,9 @@ export const en = {
   "chat.reply.rejected": "No problem — I won't draft anything. Want to refine the search or compare options?",
   "chat.focusPrompt": "Tell me about “{title}”. Is it a good fit for me?",
   "chat.nextPrompt": "Plan my next one based on my past experiences.",
+  "chat.web": "Found on the web — not verified by Juni",
+  "chat.webPrice": "{price}/week (unverified)",
+  "chat.webOpen": "Open their site",
   "chat.viewProgram": "View program",
 
   // Destinations

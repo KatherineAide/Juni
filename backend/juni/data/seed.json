@@ -1,0 +1,6727 @@
+{
+ "today": "2026-10-07",
+ "categories": [
+  {
+   "id": "languages",
+   "name": {
+    "en": "Languages",
+    "es": "Idiomas"
+   },
+   "blurb": {
+    "en": "Immersion courses with homestays and daily practice.",
+    "es": "Cursos de inmersión con familias anfitrionas y práctica diaria."
+   },
+   "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "cooking",
+   "name": {
+    "en": "Cooking & Culinary",
+    "es": "Cocina y gastronomía"
+   },
+   "blurb": {
+    "en": "Market tours, home kitchens and professional techniques.",
+    "es": "Mercados, cocinas caseras y técnicas profesionales."
+   },
+   "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "art",
+   "name": {
+    "en": "Art",
+    "es": "Arte"
+   },
+   "blurb": {
+    "en": "Painting, ceramics, textiles and printmaking studios.",
+    "es": "Talleres de pintura, cerámica, textiles y grabado."
+   },
+   "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "architecture",
+   "name": {
+    "en": "Architecture",
+    "es": "Arquitectura"
+   },
+   "blurb": {
+    "en": "Drawing and design workshops in landmark cities.",
+    "es": "Talleres de dibujo y diseño en ciudades emblemáticas."
+   },
+   "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "anthropology",
+   "name": {
+    "en": "Anthropology",
+    "es": "Antropología"
+   },
+   "blurb": {
+    "en": "Ethical field programs with local communities.",
+    "es": "Programas de campo éticos con comunidades locales."
+   },
+   "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "philosophy",
+   "name": {
+    "en": "Philosophy",
+    "es": "Filosofía"
+   },
+   "blurb": {
+    "en": "Summer schools for curious minds, no degree required.",
+    "es": "Escuelas de verano para mentes curiosas, sin título requerido."
+   },
+   "image": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "history",
+   "name": {
+    "en": "History & Archaeology",
+    "es": "Historia y arqueología"
+   },
+   "blurb": {
+    "en": "Excavations, museum labs and heritage walks.",
+    "es": "Excavaciones, laboratorios de museo y rutas patrimoniales."
+   },
+   "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "music-dance",
+   "name": {
+    "en": "Music & Dance",
+    "es": "Música y danza"
+   },
+   "blurb": {
+    "en": "Fado, flamenco, marimba and more, taught by locals.",
+    "es": "Fado, flamenco, marimba y más, con maestros locales."
+   },
+   "image": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "photo-film",
+   "name": {
+    "en": "Photography & Film",
+    "es": "Fotografía y cine"
+   },
+   "blurb": {
+    "en": "Street, documentary and travel storytelling.",
+    "es": "Fotografía callejera, documental y de viaje."
+   },
+   "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "writing",
+   "name": {
+    "en": "Writing",
+    "es": "Escritura"
+   },
+   "blurb": {
+    "en": "Workshops for fiction, memoir and travel writing.",
+    "es": "Talleres de ficción, memorias y escritura de viajes."
+   },
+   "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "wellness",
+   "name": {
+    "en": "Wellness & Yoga",
+    "es": "Bienestar y yoga"
+   },
+   "blurb": {
+    "en": "Teacher trainings and restorative retreats.",
+    "es": "Formaciones de profesores y retiros restaurativos."
+   },
+   "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "sustainability",
+   "name": {
+    "en": "Sustainability & Ecology",
+    "es": "Sostenibilidad y ecología"
+   },
+   "blurb": {
+    "en": "Permaculture, conservation and climate field courses.",
+    "es": "Permacultura, conservación y cursos de campo climáticos."
+   },
+   "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+   "id": "volunteering",
+   "name": {
+    "en": "Volunteering + Learning",
+    "es": "Voluntariado + aprendizaje"
+   },
+   "blurb": {
+    "en": "Study in the morning, contribute in the afternoon.",
+    "es": "Estudia por la mañana, colabora por la tarde."
+   },
+   "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=70"
+  }
+ ],
+ "destinations": [
+  {
+   "id": "antigua",
+   "name": "Antigua",
+   "country": {
+    "en": "Guatemala",
+    "es": "Guatemala"
+   },
+   "countryCode": "GT",
+   "region": {
+    "en": "Central America",
+    "es": "Centroamérica"
+   },
+   "image": "https://images.unsplash.com/photo-1601039641847-7857b994d704?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Cobblestone street in Antigua with a volcano in the background",
+    "es": "Calle empedrada de Antigua con un volcán al fondo"
+   },
+   "tagline": {
+    "en": "Colonial streets, volcano views and one-to-one Spanish.",
+    "es": "Calles coloniales, volcanes y español uno a uno."
+   },
+   "overview": {
+    "en": "A UNESCO World Heritage town ringed by volcanoes, Antigua is one of the most popular places in the world to learn Spanish. Most schools offer one-to-one lessons (4–5 hours a day) and homestays with local families. It's walkable, compact and has a big community of learners.",
+    "es": "Ciudad Patrimonio de la Humanidad rodeada de volcanes, Antigua es uno de los lugares más populares del mundo para aprender español. La mayoría de escuelas ofrecen clases individuales (4–5 horas al día) y alojamiento con familias. Es compacta, se recorre a pie y tiene una gran comunidad de estudiantes."
+   },
+   "costs": {
+    "course": {
+     "min": 180,
+     "max": 320
+    },
+    "housing": {
+     "min": 120,
+     "max": 260
+    },
+    "living": {
+     "min": 90,
+     "max": 160
+    }
+   },
+   "currency": {
+    "code": "GTQ",
+    "perUsd": 7.7,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "Banco de Guatemala (mock)",
+     "url": "https://www.banguat.gob.gt"
+    }
+   },
+   "bestSeasons": {
+    "en": "November–April is the dry season. June–October brings afternoon rain but fewer visitors and lower prices.",
+    "es": "De noviembre a abril es temporada seca. De junio a octubre llueve por las tardes, pero hay menos visitantes y precios más bajos."
+   },
+   "safety": {
+    "en": "Central Antigua is generally safe by day; take registered taxis at night and don't hike volcanoes without a licensed guide. Check your government's travel advisory before booking.",
+    "es": "El centro de Antigua es generalmente seguro de día; usa taxis registrados de noche y no subas volcanes sin guía autorizado. Revisa la alerta de viaje de tu gobierno antes de reservar."
+   },
+   "accessibility": {
+    "en": "Cobblestones and high curbs make wheelchair travel difficult. Some schools have ground-floor classrooms; ask for step-free homestays.",
+    "es": "El empedrado y las aceras altas dificultan el uso de silla de ruedas. Algunas escuelas tienen aulas en planta baja; pide alojamiento sin escalones."
+   },
+   "center": {
+    "lat": 14.5586,
+    "lng": -90.7295
+   }
+  },
+  {
+   "id": "quetzaltenango",
+   "name": "Quetzaltenango (Xela)",
+   "country": {
+    "en": "Guatemala",
+    "es": "Guatemala"
+   },
+   "countryCode": "GT",
+   "region": {
+    "en": "Central America",
+    "es": "Centroamérica"
+   },
+   "image": "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Highland city of Quetzaltenango surrounded by mountains",
+    "es": "Ciudad de Quetzaltenango en el altiplano, rodeada de montañas"
+   },
+   "tagline": {
+    "en": "Highland city, fewer tourists, more Spanish.",
+    "es": "Ciudad del altiplano, menos turistas, más español."
+   },
+   "overview": {
+    "en": "Guatemala's second city is known for affordable, community-run Spanish schools, many of which fund local social projects. With fewer English speakers than Antigua, it's ideal for real immersion. Expect cooler mountain weather.",
+    "es": "La segunda ciudad de Guatemala es conocida por sus escuelas de español comunitarias y económicas, muchas de las cuales financian proyectos sociales. Con menos angloparlantes que Antigua, es ideal para una inmersión real. El clima de montaña es fresco."
+   },
+   "costs": {
+    "course": {
+     "min": 150,
+     "max": 260
+    },
+    "housing": {
+     "min": 90,
+     "max": 180
+    },
+    "living": {
+     "min": 70,
+     "max": 130
+    }
+   },
+   "currency": {
+    "code": "GTQ",
+    "perUsd": 7.7,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "Banco de Guatemala (mock)",
+     "url": "https://www.banguat.gob.gt"
+    }
+   },
+   "bestSeasons": {
+    "en": "November–April is dry and sunny with cold nights. Rainy season runs May–October.",
+    "es": "De noviembre a abril es seco y soleado con noches frías. La temporada de lluvias va de mayo a octubre."
+   },
+   "safety": {
+    "en": "Stay in central neighborhoods and avoid walking alone late at night. Schools usually brief new students on safe routes.",
+    "es": "Alójate en barrios céntricos y evita caminar solo de noche. Las escuelas suelen explicar las rutas seguras a los nuevos estudiantes."
+   },
+   "accessibility": {
+    "en": "Hilly streets and uneven sidewalks. Altitude (2,330 m) can be tiring for the first few days.",
+    "es": "Calles empinadas y aceras irregulares. La altitud (2.330 m) puede cansar los primeros días."
+   },
+   "center": {
+    "lat": 14.8347,
+    "lng": -91.5181
+   }
+  },
+  {
+   "id": "oaxaca",
+   "name": "Oaxaca",
+   "country": {
+    "en": "Mexico",
+    "es": "México"
+   },
+   "countryCode": "MX",
+   "region": {
+    "en": "North America",
+    "es": "Norteamérica"
+   },
+   "image": "https://images.unsplash.com/photo-1547995886-6dc09384c6e6?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Colorful colonial buildings in Oaxaca city",
+    "es": "Edificios coloniales de colores en la ciudad de Oaxaca"
+   },
+   "tagline": {
+    "en": "Mole, mezcal, textiles and Zapotec history.",
+    "es": "Mole, mezcal, textiles e historia zapoteca."
+   },
+   "overview": {
+    "en": "Oaxaca is a capital of Mexican food and folk art. Learners come for cooking classes built around markets, weaving and pottery workshops in nearby villages, and Spanish schools with cultural programs.",
+    "es": "Oaxaca es una capital de la gastronomía y el arte popular mexicano. Se viene por clases de cocina basadas en el mercado, talleres de tejido y alfarería en pueblos cercanos y escuelas de español con programas culturales."
+   },
+   "costs": {
+    "course": {
+     "min": 200,
+     "max": 450
+    },
+    "housing": {
+     "min": 140,
+     "max": 300
+    },
+    "living": {
+     "min": 110,
+     "max": 190
+    }
+   },
+   "currency": {
+    "code": "MXN",
+    "perUsd": 18.4,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "Banco de México (mock)",
+     "url": "https://www.banxico.org.mx"
+    }
+   },
+   "bestSeasons": {
+    "en": "October–April is dry and pleasant. Late October brings Día de Muertos (book early). July has the Guelaguetza festival.",
+    "es": "De octubre a abril es seco y agradable. A finales de octubre se celebra el Día de Muertos (reserva con tiempo). En julio es la Guelaguetza."
+   },
+   "safety": {
+    "en": "The historic center is popular with visitors and generally calm. Use authorized transport for village trips and check advisories for the wider state.",
+    "es": "El centro histórico es popular y generalmente tranquilo. Usa transporte autorizado para ir a los pueblos y consulta las alertas para el resto del estado."
+   },
+   "accessibility": {
+    "en": "The pedestrian Andador Turístico is flat; many older buildings have steps. Ask about ground-floor kitchens.",
+    "es": "El Andador Turístico peatonal es plano; muchos edificios antiguos tienen escalones. Pregunta por cocinas en planta baja."
+   },
+   "center": {
+    "lat": 17.0732,
+    "lng": -96.7266
+   }
+  },
+  {
+   "id": "florence",
+   "name": "Florence",
+   "country": {
+    "en": "Italy",
+    "es": "Italia"
+   },
+   "countryCode": "IT",
+   "region": {
+    "en": "Europe",
+    "es": "Europa"
+   },
+   "image": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Florence skyline with the cathedral dome at sunset",
+    "es": "Vista de Florencia con la cúpula de la catedral al atardecer"
+   },
+   "tagline": {
+    "en": "Renaissance studios and Tuscan kitchens.",
+    "es": "Talleres renacentistas y cocinas toscanas."
+   },
+   "overview": {
+    "en": "The cradle of the Renaissance has dozens of short courses in drawing, painting, art history and Italian. Many studios welcome complete beginners. Florence is compact and walkable, but popular, so summer prices are high.",
+    "es": "La cuna del Renacimiento ofrece decenas de cursos cortos de dibujo, pintura, historia del arte e italiano. Muchos talleres reciben a principiantes. Florencia es compacta y se recorre a pie, pero es muy popular y en verano los precios suben."
+   },
+   "costs": {
+    "course": {
+     "min": 300,
+     "max": 700
+    },
+    "housing": {
+     "min": 250,
+     "max": 500
+    },
+    "living": {
+     "min": 180,
+     "max": 300
+    }
+   },
+   "currency": {
+    "code": "EUR",
+    "perUsd": 0.92,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "European Central Bank (mock)",
+     "url": "https://www.ecb.europa.eu"
+    }
+   },
+   "bestSeasons": {
+    "en": "April–June and September–October. July–August are hot and crowded.",
+    "es": "De abril a junio y de septiembre a octubre. Julio y agosto son calurosos y concurridos."
+   },
+   "safety": {
+    "en": "Very safe overall; watch for pickpockets around the Duomo and on buses.",
+    "es": "Muy seguro en general; cuidado con los carteristas cerca del Duomo y en los autobuses."
+   },
+   "accessibility": {
+    "en": "The center is mostly flat but has narrow sidewalks and cobblestones. Major museums are step-free.",
+    "es": "El centro es mayormente plano, con aceras estrechas y adoquines. Los grandes museos son accesibles."
+   },
+   "center": {
+    "lat": 43.7696,
+    "lng": 11.2558
+   }
+  },
+  {
+   "id": "bologna",
+   "name": "Bologna",
+   "country": {
+    "en": "Italy",
+    "es": "Italia"
+   },
+   "countryCode": "IT",
+   "region": {
+    "en": "Europe",
+    "es": "Europa"
+   },
+   "image": "https://images.unsplash.com/photo-1598940603846-a1edd0ef2574?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Red rooftops and medieval towers of Bologna",
+    "es": "Tejados rojos y torres medievales de Bolonia"
+   },
+   "tagline": {
+    "en": "Fresh pasta, porticoes and Europe's oldest university.",
+    "es": "Pasta fresca, pórticos y la universidad más antigua de Europa."
+   },
+   "overview": {
+    "en": "Bologna is Italy's food capital and a student city. Short courses focus on fresh pasta, regional cooking and Italian language, often combined. Prices are lower than Florence or Rome.",
+    "es": "Bolonia es la capital gastronómica de Italia y una ciudad universitaria. Los cursos cortos se centran en pasta fresca, cocina regional e italiano, a menudo combinados. Los precios son más bajos que en Florencia o Roma."
+   },
+   "costs": {
+    "course": {
+     "min": 280,
+     "max": 600
+    },
+    "housing": {
+     "min": 220,
+     "max": 420
+    },
+    "living": {
+     "min": 160,
+     "max": 260
+    }
+   },
+   "currency": {
+    "code": "EUR",
+    "perUsd": 0.92,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "European Central Bank (mock)",
+     "url": "https://www.ecb.europa.eu"
+    }
+   },
+   "bestSeasons": {
+    "en": "Spring and autumn. August is quiet and some businesses close.",
+    "es": "Primavera y otoño. En agosto la ciudad está tranquila y algunos negocios cierran."
+   },
+   "safety": {
+    "en": "Safe and lively. Normal city precautions at night around the station.",
+    "es": "Segura y animada. Precauciones normales de noche cerca de la estación."
+   },
+   "accessibility": {
+    "en": "Nearly 40 km of covered porticoes give level, sheltered walking routes.",
+    "es": "Casi 40 km de pórticos ofrecen recorridos planos y cubiertos."
+   },
+   "center": {
+    "lat": 44.4949,
+    "lng": 11.3426
+   }
+  },
+  {
+   "id": "barcelona",
+   "name": "Barcelona",
+   "country": {
+    "en": "Spain",
+    "es": "España"
+   },
+   "countryCode": "ES",
+   "region": {
+    "en": "Europe",
+    "es": "Europa"
+   },
+   "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Sagrada Família basilica in Barcelona",
+    "es": "Basílica de la Sagrada Família en Barcelona"
+   },
+   "tagline": {
+    "en": "Gaudí, Mediterranean light and design workshops.",
+    "es": "Gaudí, luz mediterránea y talleres de diseño."
+   },
+   "overview": {
+    "en": "Barcelona mixes modernist architecture with a strong design scene. Short programs include architecture sketching, photography and Spanish. It's a big, busy city — great for independent learners.",
+    "es": "Barcelona combina arquitectura modernista con una escena de diseño muy activa. Hay programas cortos de dibujo arquitectónico, fotografía y español. Es una ciudad grande y dinámica, ideal para estudiantes independientes."
+   },
+   "costs": {
+    "course": {
+     "min": 250,
+     "max": 650
+    },
+    "housing": {
+     "min": 260,
+     "max": 520
+    },
+    "living": {
+     "min": 170,
+     "max": 290
+    }
+   },
+   "currency": {
+    "code": "EUR",
+    "perUsd": 0.92,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "European Central Bank (mock)",
+     "url": "https://www.ecb.europa.eu"
+    }
+   },
+   "bestSeasons": {
+    "en": "May–June and September–October. Summer is hot and very busy.",
+    "es": "De mayo a junio y de septiembre a octubre. El verano es caluroso y muy concurrido."
+   },
+   "safety": {
+    "en": "Generally safe, but pickpocketing is common in tourist areas and on the metro.",
+    "es": "Generalmente segura, pero los carteristas son frecuentes en zonas turísticas y en el metro."
+   },
+   "accessibility": {
+    "en": "Metro and buses are largely accessible; the Eixample grid is flat. Gothic Quarter is narrow and uneven.",
+    "es": "El metro y los autobuses son mayormente accesibles; el Eixample es plano. El Barrio Gótico es estrecho e irregular."
+   },
+   "center": {
+    "lat": 41.3874,
+    "lng": 2.1686
+   }
+  },
+  {
+   "id": "lisbon",
+   "name": "Lisbon",
+   "country": {
+    "en": "Portugal",
+    "es": "Portugal"
+   },
+   "countryCode": "PT",
+   "region": {
+    "en": "Europe",
+    "es": "Europa"
+   },
+   "image": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Yellow tram on a hilly street in Lisbon",
+    "es": "Tranvía amarillo en una calle empinada de Lisboa"
+   },
+   "tagline": {
+    "en": "Fado, azulejos and writers' cafés.",
+    "es": "Fado, azulejos y cafés de escritores."
+   },
+   "overview": {
+    "en": "Lisbon is friendly, affordable for Western Europe and full of creative workshops: tile painting, fado, writing retreats and Portuguese courses.",
+    "es": "Lisboa es acogedora, asequible para Europa occidental y llena de talleres creativos: pintura de azulejos, fado, retiros de escritura y cursos de portugués."
+   },
+   "costs": {
+    "course": {
+     "min": 220,
+     "max": 520
+    },
+    "housing": {
+     "min": 230,
+     "max": 450
+    },
+    "living": {
+     "min": 150,
+     "max": 250
+    }
+   },
+   "currency": {
+    "code": "EUR",
+    "perUsd": 0.92,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "European Central Bank (mock)",
+     "url": "https://www.ecb.europa.eu"
+    }
+   },
+   "bestSeasons": {
+    "en": "March–June and September–November.",
+    "es": "De marzo a junio y de septiembre a noviembre."
+   },
+   "safety": {
+    "en": "Safe overall. Watch belongings on Tram 28 and in Baixa.",
+    "es": "Segura en general. Cuida tus pertenencias en el tranvía 28 y en la Baixa."
+   },
+   "accessibility": {
+    "en": "Very hilly with slippery limestone sidewalks. Choose lodging near metro stations with elevators.",
+    "es": "Muy empinada y con aceras de piedra resbaladizas. Elige alojamiento cerca de estaciones de metro con ascensor."
+   },
+   "center": {
+    "lat": 38.7223,
+    "lng": -9.1393
+   }
+  },
+  {
+   "id": "kyoto",
+   "name": "Kyoto",
+   "country": {
+    "en": "Japan",
+    "es": "Japón"
+   },
+   "countryCode": "JP",
+   "region": {
+    "en": "East Asia",
+    "es": "Asia oriental"
+   },
+   "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Wooden temple pagoda in Kyoto",
+    "es": "Pagoda de madera de un templo en Kioto"
+   },
+   "tagline": {
+    "en": "Craft traditions, temples and Japanese cuisine.",
+    "es": "Artesanía tradicional, templos y cocina japonesa."
+   },
+   "overview": {
+    "en": "Kyoto is home to centuries-old craft workshops, tea culture and some of Japan's best cooking schools. Short programs include washoku cooking, ceramics, calligraphy and Japanese language.",
+    "es": "Kioto alberga talleres artesanales centenarios, la cultura del té y algunas de las mejores escuelas de cocina de Japón. Hay programas de cocina washoku, cerámica, caligrafía y japonés."
+   },
+   "costs": {
+    "course": {
+     "min": 350,
+     "max": 800
+    },
+    "housing": {
+     "min": 280,
+     "max": 550
+    },
+    "living": {
+     "min": 200,
+     "max": 320
+    }
+   },
+   "currency": {
+    "code": "JPY",
+    "perUsd": 148,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "Bank of Japan (mock)",
+     "url": "https://www.boj.or.jp"
+    }
+   },
+   "bestSeasons": {
+    "en": "Late March–April (cherry blossoms) and November (autumn leaves) are stunning but expensive. Summer is hot and humid.",
+    "es": "Finales de marzo–abril (cerezos) y noviembre (otoño) son espectaculares pero caros. El verano es caluroso y húmedo."
+   },
+   "safety": {
+    "en": "Very safe. Earthquake preparedness information is posted in most lodging.",
+    "es": "Muy seguro. La mayoría de alojamientos tiene información sobre qué hacer en caso de sismo."
+   },
+   "accessibility": {
+    "en": "Buses and trains are accessible; many temples have gravel paths and stairs.",
+    "es": "Autobuses y trenes son accesibles; muchos templos tienen caminos de grava y escaleras."
+   },
+   "center": {
+    "lat": 35.0116,
+    "lng": 135.7681
+   }
+  },
+  {
+   "id": "chiang-mai",
+   "name": "Chiang Mai",
+   "country": {
+    "en": "Thailand",
+    "es": "Tailandia"
+   },
+   "countryCode": "TH",
+   "region": {
+    "en": "Southeast Asia",
+    "es": "Sudeste asiático"
+   },
+   "image": "https://images.unsplash.com/photo-1598935898639-81586f7d2129?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Golden temple in Chiang Mai surrounded by trees",
+    "es": "Templo dorado en Chiang Mai rodeado de árboles"
+   },
+   "tagline": {
+    "en": "Thai cooking, yoga and mountain ecology on a budget.",
+    "es": "Cocina tailandesa, yoga y ecología de montaña con poco presupuesto."
+   },
+   "overview": {
+    "en": "Chiang Mai is a relaxed northern city with very low living costs. It's known for farm-based cooking schools, yoga and meditation, and sustainability programs in the surrounding hills.",
+    "es": "Chiang Mai es una ciudad tranquila del norte con un costo de vida muy bajo. Es conocida por sus escuelas de cocina en granjas, yoga y meditación, y programas de sostenibilidad en las colinas cercanas."
+   },
+   "costs": {
+    "course": {
+     "min": 120,
+     "max": 380
+    },
+    "housing": {
+     "min": 80,
+     "max": 220
+    },
+    "living": {
+     "min": 70,
+     "max": 140
+    }
+   },
+   "currency": {
+    "code": "THB",
+    "perUsd": 34.5,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "Bank of Thailand (mock)",
+     "url": "https://www.bot.or.th"
+    }
+   },
+   "bestSeasons": {
+    "en": "November–February is cool and dry. March–April has smoky 'burning season' air quality issues.",
+    "es": "De noviembre a febrero es fresco y seco. En marzo–abril hay humo por la temporada de quemas."
+   },
+   "safety": {
+    "en": "Safe and easygoing. Wear a helmet on scooters and check travel insurance covers them.",
+    "es": "Segura y tranquila. Usa casco en moto y verifica que tu seguro de viaje lo cubra."
+   },
+   "accessibility": {
+    "en": "Sidewalks are often uneven or blocked; songthaew trucks are not wheelchair-accessible.",
+    "es": "Las aceras suelen ser irregulares; los songthaew no son accesibles en silla de ruedas."
+   },
+   "center": {
+    "lat": 18.7883,
+    "lng": 98.9853
+   }
+  },
+  {
+   "id": "athens",
+   "name": "Athens",
+   "country": {
+    "en": "Greece",
+    "es": "Grecia"
+   },
+   "countryCode": "GR",
+   "region": {
+    "en": "Europe",
+    "es": "Europa"
+   },
+   "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "The Parthenon on the Acropolis in Athens",
+    "es": "El Partenón en la Acrópolis de Atenas"
+   },
+   "tagline": {
+    "en": "Philosophy where it began, plus archaeology field schools.",
+    "es": "Filosofía donde empezó, más escuelas de campo arqueológico."
+   },
+   "overview": {
+    "en": "Athens offers open summer schools in ancient philosophy and history, archaeology field schools on nearby sites, and Greek language courses. Many programs are taught in English.",
+    "es": "Atenas ofrece escuelas de verano abiertas de filosofía e historia antigua, escuelas de campo arqueológico y cursos de griego. Muchos programas se imparten en inglés."
+   },
+   "costs": {
+    "course": {
+     "min": 250,
+     "max": 600
+    },
+    "housing": {
+     "min": 200,
+     "max": 400
+    },
+    "living": {
+     "min": 140,
+     "max": 240
+    }
+   },
+   "currency": {
+    "code": "EUR",
+    "perUsd": 0.92,
+    "lastChecked": "2026-10-01",
+    "source": {
+     "label": "European Central Bank (mock)",
+     "url": "https://www.ecb.europa.eu"
+    }
+   },
+   "bestSeasons": {
+    "en": "April–June and September–October. July–August can exceed 38 °C.",
+    "es": "De abril a junio y de septiembre a octubre. En julio y agosto se superan los 38 °C."
+   },
+   "safety": {
+    "en": "Generally safe; be alert to pickpockets on the metro and around Omonia at night.",
+    "es": "Generalmente segura; cuidado con los carteristas en el metro y en Omonia de noche."
+   },
+   "accessibility": {
+    "en": "The Acropolis has an elevator for visitors with reduced mobility. Many sidewalks are narrow.",
+    "es": "La Acrópolis tiene ascensor para personas con movilidad reducida. Muchas aceras son estrechas."
+   },
+   "center": {
+    "lat": 37.9838,
+    "lng": 23.7275
+   }
+  }
+ ],
+ "schools": [
+  {
+   "id": "casa-volcan",
+   "name": "Casa Volcán Escuela de Español",
+   "destinationId": "antigua",
+   "address": "5a Avenida Norte 12, Antigua Guatemala",
+   "coords": {
+    "lat": 14.5612,
+    "lng": -90.7341
+   },
+   "website": "https://casavolcan.example",
+   "email": "hola@casavolcan.example",
+   "founded": 2004,
+   "paymentMethods": [
+    "Card",
+    "PayPal",
+    "Cash on arrival (deposit by card)"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start; 50% up to 7 days.",
+    "es": "Reembolso total hasta 30 días antes; 50% hasta 7 días antes."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-28",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://casavolcan.example"
+     },
+     {
+      "label": "Guatemala business registry (mock)",
+      "url": "https://registro.example/casa-volcan"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "antigua-kitchen",
+   "name": "Antigua Kitchen Collective",
+   "destinationId": "antigua",
+   "address": "3a Calle Poniente 21, Antigua Guatemala",
+   "coords": {
+    "lat": 14.5571,
+    "lng": -90.7368
+   },
+   "website": "https://antiguakitchen.example",
+   "email": "cook@antiguakitchen.example",
+   "founded": 2015,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 14 days before start.",
+    "es": "Reembolso total hasta 14 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-20",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://antiguakitchen.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "sol-y-lengua",
+   "name": "Escuela Sol y Lengua Internacional",
+   "destinationId": "antigua",
+   "address": null,
+   "coords": null,
+   "website": "https://solylengua-visas.example",
+   "email": "admissions.solylengua@freemail.example",
+   "founded": null,
+   "paymentMethods": [
+    "International wire transfer only"
+   ],
+   "refundPolicy": null,
+   "verification": {
+    "status": "risk",
+    "lastChecked": "2026-09-30",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://solylengua-visas.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "fail",
+      "note": {
+       "en": "No street address listed; the photos match a stock-image site.",
+       "es": "No indica dirección; las fotos coinciden con un banco de imágenes."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "fail",
+      "note": {
+       "en": "Wire transfer only, paid upfront in full.",
+       "es": "Solo transferencia bancaria, pago total por adelantado."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "fail",
+      "note": {
+       "en": "No refund policy published.",
+       "es": "No publica política de reembolso."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "fail",
+      "note": {
+       "en": "No independent reviews found.",
+       "es": "No se encontraron reseñas independientes."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "fail",
+      "note": {
+       "en": "Claims a \"guaranteed visa\" — no school can guarantee a visa.",
+       "es": "Promete una \"visa garantizada\"; ninguna escuela puede garantizarla."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "unknown",
+      "note": {
+       "en": "Could not find a business registration yet. Ask the school for it.",
+       "es": "Aún no encontramos registro mercantil. Pídeselo a la escuela."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "unknown",
+      "note": {
+       "en": "Price only available after contacting by email.",
+       "es": "El precio solo se obtiene por correo."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "xela-comunidad",
+   "name": "Xela Comunidad Spanish School",
+   "destinationId": "quetzaltenango",
+   "address": "14 Avenida 5-42, Zona 1, Quetzaltenango",
+   "coords": {
+    "lat": 14.8361,
+    "lng": -91.5199
+   },
+   "website": "https://xelacomunidad.example",
+   "email": "info@xelacomunidad.example",
+   "founded": 1998,
+   "paymentMethods": [
+    "Card",
+    "PayPal",
+    "Cash on arrival"
+   ],
+   "refundPolicy": {
+    "en": "Deposit ($75) refundable up to 21 days before start.",
+    "es": "Depósito ($75) reembolsable hasta 21 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-25",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://xelacomunidad.example"
+     },
+     {
+      "label": "Community partner report (mock)",
+      "url": "https://ngo.example/xela"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "instituto-altiplano",
+   "name": "Instituto Altiplano de Estudios Mayas",
+   "destinationId": "quetzaltenango",
+   "address": "7a Calle 11-30, Zona 1, Quetzaltenango",
+   "coords": {
+    "lat": 14.8332,
+    "lng": -91.5162
+   },
+   "website": "https://altiplano.example",
+   "email": "programas@altiplano.example",
+   "founded": 2009,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 45 days before start; 30% after.",
+    "es": "Reembolso total hasta 45 días antes; 30% después."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-18",
+    "sources": [
+     {
+      "label": "Institute website",
+      "url": "https://altiplano.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "barro-rojo",
+   "name": "Taller Barro Rojo",
+   "destinationId": "oaxaca",
+   "address": "Calle Macedonio Alcalá 410, Centro, Oaxaca",
+   "coords": {
+    "lat": 17.0661,
+    "lng": -96.7242
+   },
+   "website": "https://barrorojo.example",
+   "email": "taller@barrorojo.example",
+   "founded": 2011,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 21 days before start.",
+    "es": "Reembolso total hasta 21 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-22",
+    "sources": [
+     {
+      "label": "Workshop website",
+      "url": "https://barrorojo.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "cocina-mercado",
+   "name": "Cocina de Mercado Oaxaca",
+   "destinationId": "oaxaca",
+   "address": "Calle de Gurrión 104, Centro, Oaxaca",
+   "coords": {
+    "lat": 17.0705,
+    "lng": -96.7255
+   },
+   "website": "https://cocinademercado.example",
+   "email": "reservas@cocinademercado.example",
+   "founded": 2013,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 14 days before start.",
+    "es": "Reembolso total hasta 14 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-29",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://cocinademercado.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "textil-colectivo",
+   "name": "Colectivo Textil Teotitlán",
+   "destinationId": "oaxaca",
+   "address": "Avenida Juárez 7, Teotitlán del Valle, Oaxaca",
+   "coords": {
+    "lat": 17.0759,
+    "lng": -96.7105
+   },
+   "website": "https://textilteotitlan.example",
+   "email": "colectivo@textilteotitlan.example",
+   "founded": 2019,
+   "paymentMethods": [
+    "PayPal",
+    "Cash on arrival"
+   ],
+   "refundPolicy": {
+    "en": "Refunds handled case by case.",
+    "es": "Reembolsos caso por caso."
+   },
+   "verification": {
+    "status": "unverified",
+    "lastChecked": "2026-09-10",
+    "sources": [
+     {
+      "label": "Collective website",
+      "url": "https://textilteotitlan.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "unknown",
+      "note": {
+       "en": "Refund terms are informal (\"case by case\"). Get them in writing.",
+       "es": "Los términos son informales (\"caso por caso\"). Pídelos por escrito."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "unknown",
+      "note": {
+       "en": "Too few independent reviews to confirm yet.",
+       "es": "Aún hay muy pocas reseñas independientes para confirmar."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "unknown",
+      "note": {
+       "en": "Could not find a business registration yet. Ask the school for it.",
+       "es": "Aún no encontramos registro mercantil. Pídeselo a la escuela."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "studio-arno",
+   "name": "Studio Arno Drawing Atelier",
+   "destinationId": "florence",
+   "address": "Via dei Serragli 44, Florence",
+   "coords": {
+    "lat": 43.7655,
+    "lng": 11.2465
+   },
+   "website": "https://studioarno.example",
+   "email": "atelier@studioarno.example",
+   "founded": 2002,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start; credit for later sessions after that.",
+    "es": "Reembolso total hasta 30 días antes; después, crédito para otra sesión."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-26",
+    "sources": [
+     {
+      "label": "Atelier website",
+      "url": "https://studioarno.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "fast-track-art",
+   "name": "Florence Fast-Track Art Academy",
+   "destinationId": "florence",
+   "address": null,
+   "coords": null,
+   "website": "https://fasttrack-art-florence.example",
+   "email": "enroll.fasttrack@freemail.example",
+   "founded": null,
+   "paymentMethods": [
+    "Wire transfer",
+    "Crypto"
+   ],
+   "refundPolicy": null,
+   "verification": {
+    "status": "risk",
+    "lastChecked": "2026-09-30",
+    "sources": [
+     {
+      "label": "Academy website",
+      "url": "https://fasttrack-art-florence.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "fail",
+      "note": {
+       "en": "Only a P.O. box is listed.",
+       "es": "Solo indica un apartado postal."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "fail",
+      "note": {
+       "en": "Wire transfer or crypto only — no buyer protection.",
+       "es": "Solo transferencia o criptomonedas, sin protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "fail",
+      "note": {
+       "en": "No refund policy.",
+       "es": "Sin política de reembolso."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "fail",
+      "note": {
+       "en": "All reviews are on the academy's own site and posted the same week.",
+       "es": "Todas las reseñas están en su propio sitio y se publicaron la misma semana."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "fail",
+      "note": {
+       "en": "No matching business registration found.",
+       "es": "No se encontró registro mercantil."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "fail",
+      "note": {
+       "en": "Price is 60% below comparable studios and changes between pages.",
+       "es": "El precio es un 60% inferior a talleres comparables y cambia entre páginas."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "scuola-sfoglia",
+   "name": "Scuola della Sfoglia",
+   "destinationId": "bologna",
+   "address": "Via del Pratello 31, Bologna",
+   "coords": {
+    "lat": 44.4946,
+    "lng": 11.333
+   },
+   "website": "https://scuolasfoglia.example",
+   "email": "corsi@scuolasfoglia.example",
+   "founded": 1996,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 21 days before start.",
+    "es": "Reembolso total hasta 21 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-27",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://scuolasfoglia.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "lingua-viva",
+   "name": "Lingua Viva Bologna",
+   "destinationId": "bologna",
+   "address": "Via Zamboni 18, Bologna",
+   "coords": {
+    "lat": 44.4965,
+    "lng": 11.3485
+   },
+   "website": "https://linguaviva.example",
+   "email": "info@linguaviva.example",
+   "founded": 2006,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 14 days before start, minus €50 fee.",
+    "es": "Reembolso total hasta 14 días antes, menos 50 € de gestión."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-21",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://linguaviva.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "taller-eixample",
+   "name": "Taller d'Arquitectura Eixample",
+   "destinationId": "barcelona",
+   "address": "Carrer de Provença 260, Barcelona",
+   "coords": {
+    "lat": 41.3946,
+    "lng": 2.1617
+   },
+   "website": "https://tallereixample.example",
+   "email": "hola@tallereixample.example",
+   "founded": 2012,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start.",
+    "es": "Reembolso total hasta 30 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-24",
+    "sources": [
+     {
+      "label": "Studio website",
+      "url": "https://tallereixample.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "bcn-photo-lab",
+   "name": "Barcelona Photo Lab",
+   "destinationId": "barcelona",
+   "address": "Carrer de la Riera Baixa 8, Barcelona",
+   "coords": {
+    "lat": 41.38,
+    "lng": 2.1683
+   },
+   "website": "https://bcnphotolab.example",
+   "email": "workshops@bcnphotolab.example",
+   "founded": 2010,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 14 days before start.",
+    "es": "Reembolso total hasta 14 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-19",
+    "sources": [
+     {
+      "label": "Lab website",
+      "url": "https://bcnphotolab.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "casa-do-fado",
+   "name": "Casa do Fado Escola",
+   "destinationId": "lisbon",
+   "address": "Rua de São Miguel 54, Alfama, Lisbon",
+   "coords": {
+    "lat": 38.7115,
+    "lng": -9.1292
+   },
+   "website": "https://casadofado.example",
+   "email": "escola@casadofado.example",
+   "founded": 2008,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 21 days before start.",
+    "es": "Reembolso total hasta 21 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-23",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://casadofado.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "lisbon-writers",
+   "name": "Lisbon Writers' House",
+   "destinationId": "lisbon",
+   "address": "Rua da Rosa 120, Bairro Alto, Lisbon",
+   "coords": {
+    "lat": 38.7139,
+    "lng": -9.1458
+   },
+   "website": "https://lisbonwriters.example",
+   "email": "residency@lisbonwriters.example",
+   "founded": 2021,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "50% refund up to 30 days before start.",
+    "es": "Reembolso del 50% hasta 30 días antes del inicio."
+   },
+   "verification": {
+    "status": "unverified",
+    "lastChecked": "2026-09-12",
+    "sources": [
+     {
+      "label": "House website",
+      "url": "https://lisbonwriters.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "unknown",
+      "note": {
+       "en": "Too few independent reviews to confirm yet.",
+       "es": "Aún hay muy pocas reseñas independientes para confirmar."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "unknown",
+      "note": {
+       "en": "Could not find a business registration yet. Ask the school for it.",
+       "es": "Aún no encontramos registro mercantil. Pídeselo a la escuela."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kamogawa-cooking",
+   "name": "Kamogawa Cooking Studio",
+   "destinationId": "kyoto",
+   "address": "Shimogyo-ku, Kiyamachi-dori 340, Kyoto",
+   "coords": {
+    "lat": 35.0035,
+    "lng": 135.77
+   },
+   "website": "https://kamogawacooking.example",
+   "email": "studio@kamogawacooking.example",
+   "founded": 2014,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start.",
+    "es": "Reembolso total hasta 30 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-27",
+    "sources": [
+     {
+      "label": "Studio website",
+      "url": "https://kamogawacooking.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "higashiyama-craft",
+   "name": "Higashiyama Craft School",
+   "destinationId": "kyoto",
+   "address": "Higashiyama-ku, Gojozaka 2-15, Kyoto",
+   "coords": {
+    "lat": 34.996,
+    "lng": 135.779
+   },
+   "website": "https://higashiyamacraft.example",
+   "email": "info@higashiyamacraft.example",
+   "founded": 1989,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start.",
+    "es": "Reembolso total hasta 30 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-17",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://higashiyamacraft.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "mae-rim-kitchen",
+   "name": "Mae Rim Farm Kitchen",
+   "destinationId": "chiang-mai",
+   "address": "88 Moo 3, Mae Rim, Chiang Mai",
+   "coords": {
+    "lat": 18.815,
+    "lng": 98.96
+   },
+   "website": "https://maerimkitchen.example",
+   "email": "farm@maerimkitchen.example",
+   "founded": 2007,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 7 days before start.",
+    "es": "Reembolso total hasta 7 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-29",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://maerimkitchen.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "doi-suthep-eco",
+   "name": "Doi Suthep Ecology Center",
+   "destinationId": "chiang-mai",
+   "address": "Huay Kaew Road 239, Chiang Mai",
+   "coords": {
+    "lat": 18.804,
+    "lng": 98.95
+   },
+   "website": "https://doisuthepeco.example",
+   "email": "learn@doisuthepeco.example",
+   "founded": 2012,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start.",
+    "es": "Reembolso total hasta 30 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-16",
+    "sources": [
+     {
+      "label": "Center website",
+      "url": "https://doisuthepeco.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "lanna-yoga",
+   "name": "Lanna Yoga Sala",
+   "destinationId": "chiang-mai",
+   "address": "Soi 7 Nimmanhaemin Road, Chiang Mai",
+   "coords": {
+    "lat": 18.7975,
+    "lng": 98.968
+   },
+   "website": "https://lannayoga.example",
+   "email": "sala@lannayoga.example",
+   "founded": 2010,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 30 days before start; 50% after.",
+    "es": "Reembolso total hasta 30 días antes; 50% después."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-14",
+    "sources": [
+     {
+      "label": "Sala website",
+      "url": "https://lannayoga.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "dream-volunteer",
+   "name": "Chiang Mai Dream Volunteer Camp",
+   "destinationId": "chiang-mai",
+   "address": null,
+   "coords": null,
+   "website": "https://dreamvolunteer-camp.example",
+   "email": "join.dreamcamp@freemail.example",
+   "founded": null,
+   "paymentMethods": [
+    "Wire transfer only"
+   ],
+   "refundPolicy": null,
+   "verification": {
+    "status": "risk",
+    "lastChecked": "2026-09-30",
+    "sources": [
+     {
+      "label": "Camp website",
+      "url": "https://dreamvolunteer-camp.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "fail",
+      "note": {
+       "en": "No address; location shared \"after payment\".",
+       "es": "Sin dirección; la ubicación se comparte \"tras el pago\"."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "fail",
+      "note": {
+       "en": "Wire transfer only.",
+       "es": "Solo transferencia bancaria."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "fail",
+      "note": {
+       "en": "\"All fees are non-refundable.\"",
+       "es": "\"Todas las tarifas son no reembolsables.\""
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "fail",
+      "note": {
+       "en": "No independent reviews found.",
+       "es": "No se encontraron reseñas independientes."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "fail",
+      "note": {
+       "en": "Says volunteers can work on a tourist entry — this may break local law.",
+       "es": "Dice que se puede voluntariar con entrada de turista; puede infringir la ley local."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "unknown",
+      "note": {
+       "en": "Could not find a business registration yet. Ask the school for it.",
+       "es": "Aún no encontramos registro mercantil. Pídeselo a la escuela."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "unknown",
+      "note": {
+       "en": "Price not published.",
+       "es": "Precio no publicado."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "agora-summer",
+   "name": "Agora Summer School of Philosophy",
+   "destinationId": "athens",
+   "address": "Adrianou 96, Plaka, Athens",
+   "coords": {
+    "lat": 37.974,
+    "lng": 23.729
+   },
+   "website": "https://agorasummer.example",
+   "email": "school@agorasummer.example",
+   "founded": 2005,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 45 days before start.",
+    "es": "Reembolso total hasta 45 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-20",
+    "sources": [
+     {
+      "label": "School website",
+      "url": "https://agorasummer.example"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "attica-field",
+   "name": "Attica Field School",
+   "destinationId": "athens",
+   "address": "Ermou 112, Athens",
+   "coords": {
+    "lat": 37.977,
+    "lng": 23.721
+   },
+   "website": "https://atticafield.example",
+   "email": "fieldschool@atticafield.example",
+   "founded": 2001,
+   "paymentMethods": [
+    "Card",
+    "PayPal"
+   ],
+   "refundPolicy": {
+    "en": "Full refund up to 60 days before start.",
+    "es": "Reembolso total hasta 60 días antes del inicio."
+   },
+   "verification": {
+    "status": "verified",
+    "lastChecked": "2026-09-15",
+    "sources": [
+     {
+      "label": "Field school website",
+      "url": "https://atticafield.example"
+     },
+     {
+      "label": "Excavation permit listing (mock)",
+      "url": "https://permits.example/attica"
+     }
+    ],
+    "checks": [
+     {
+      "id": "physical_address",
+      "result": "pass",
+      "note": {
+       "en": "Street address confirmed on map imagery and by a past participant.",
+       "es": "Dirección confirmada en el mapa y por un participante anterior."
+      }
+     },
+     {
+      "id": "payment_methods",
+      "result": "pass",
+      "note": {
+       "en": "Accepts card or a payment platform with buyer protection.",
+       "es": "Acepta tarjeta o plataforma de pago con protección al comprador."
+      }
+     },
+     {
+      "id": "refund_policy",
+      "result": "pass",
+      "note": {
+       "en": "Written refund and cancellation policy published.",
+       "es": "Política escrita de reembolso y cancelación publicada."
+      }
+     },
+     {
+      "id": "independent_reviews",
+      "result": "pass",
+      "note": {
+       "en": "Reviews found on independent sites, consistent with ours.",
+       "es": "Reseñas en sitios independientes, coherentes con las nuestras."
+      }
+     },
+     {
+      "id": "visa_claims",
+      "result": "pass",
+      "note": {
+       "en": "No misleading visa promises.",
+       "es": "Sin promesas engañosas sobre visas."
+      }
+     },
+     {
+      "id": "registration",
+      "result": "pass",
+      "note": {
+       "en": "Business registration found in public records.",
+       "es": "Registro mercantil encontrado en registros públicos."
+      }
+     },
+     {
+      "id": "price_crosscheck",
+      "result": "pass",
+      "note": {
+       "en": "Listed price matches the school's own website.",
+       "es": "El precio coincide con el sitio web de la escuela."
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "programs": [
+  {
+   "id": "antigua-spanish-immersion",
+   "title": {
+    "en": "One-to-One Spanish Immersion",
+    "es": "Inmersión en español uno a uno"
+   },
+   "schoolId": "casa-volcan",
+   "destinationId": "antigua",
+   "category": "languages",
+   "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Student and teacher studying Spanish at a garden table",
+    "es": "Estudiante y profesora estudiando español en una mesa de jardín"
+   },
+   "summary": {
+    "en": "20 hours a week of private Spanish lessons in a garden courtyard, with a local homestay.",
+    "es": "20 horas semanales de clases privadas en un patio con jardín, con alojamiento en familia."
+   },
+   "description": {
+    "en": "Every student gets their own teacher for four hours each morning, tailored to your level and goals. Afternoons include optional activities — cooking, salsa, a coffee farm visit — and you live with a vetted Guatemalan family.",
+    "es": "Cada estudiante tiene su propio profesor cuatro horas cada mañana, adaptadas a su nivel y objetivos. Por las tardes hay actividades opcionales —cocina, salsa, visita a una finca de café— y vives con una familia guatemalteca verificada."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 8:00–12:00 · private lessons",
+     "es": "Lun–vie 8:00–12:00 · clases privadas"
+    },
+    {
+     "en": "Afternoons · optional cultural activities",
+     "es": "Tardes · actividades culturales opcionales"
+    },
+    {
+     "en": "Saturday · optional excursion (extra cost)",
+     "es": "Sábado · excursión opcional (costo extra)"
+    }
+   ],
+   "includes": [
+    {
+     "en": "20 h/week private lessons",
+     "es": "20 h/semana de clases privadas"
+    },
+    {
+     "en": "Placement test and materials",
+     "es": "Prueba de nivel y materiales"
+    },
+    {
+     "en": "Afternoon activities",
+     "es": "Actividades por la tarde"
+    },
+    {
+     "en": "Certificate of hours",
+     "es": "Certificado de horas"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 8
+   },
+   "hoursPerWeek": 20,
+   "level": "all",
+   "instructionLanguages": [
+    "Spanish"
+   ],
+   "pricePerWeek": 210,
+   "registrationFee": 40,
+   "priceSource": {
+    "label": "casavolcan.example/prices",
+    "url": "https://casavolcan.example/prices"
+   },
+   "priceLastChecked": "2026-09-28",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-11",
+     "end": "2027-02-05",
+     "seatsLeft": 8
+    },
+    {
+     "id": "s2",
+     "start": "2027-03-01",
+     "end": "2027-03-26",
+     "seatsLeft": 5
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s4",
+     "start": "2027-08-02",
+     "end": "2027-08-27",
+     "seatsLeft": 9
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 150,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    },
+    {
+     "type": "hostel",
+     "pricePerWeek": 110
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "flexible-pace"
+   ],
+   "rating": 4.8,
+   "reviewCount": 214,
+   "applicationDeadlineDays": 14,
+   "minAge": 16,
+   "tags": [
+    "budget",
+    "spanish",
+    "homestay",
+    "beginner-friendly",
+    "food"
+   ]
+  },
+  {
+   "id": "antigua-spanish-volunteer",
+   "title": {
+    "en": "Spanish + Community Volunteering",
+    "es": "Español + voluntariado comunitario"
+   },
+   "schoolId": "casa-volcan",
+   "destinationId": "antigua",
+   "category": "volunteering",
+   "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Volunteers painting a community library",
+    "es": "Voluntarios pintando una biblioteca comunitaria"
+   },
+   "summary": {
+    "en": "Spanish in the morning, supervised volunteering at a reading program in the afternoon.",
+    "es": "Español por la mañana y voluntariado supervisado en un programa de lectura por la tarde."
+   },
+   "description": {
+    "en": "Combine 15 hours of Spanish with 10 hours a week helping a local NGO's after-school reading program. Volunteers support local staff — they never replace paid jobs. Background check required.",
+    "es": "Combina 15 horas de español con 10 horas semanales de apoyo al programa de lectura de una ONG local. Los voluntarios apoyan al personal local; nunca reemplazan empleos pagados. Se requiere certificado de antecedentes."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 8:00–11:00 · Spanish",
+     "es": "Lun–vie 8:00–11:00 · español"
+    },
+    {
+     "en": "Mon–Fri 14:00–16:00 · reading program",
+     "es": "Lun–vie 14:00–16:00 · programa de lectura"
+    }
+   ],
+   "includes": [
+    {
+     "en": "15 h/week Spanish",
+     "es": "15 h/semana de español"
+    },
+    {
+     "en": "Volunteer orientation",
+     "es": "Orientación de voluntariado"
+    },
+    {
+     "en": "NGO donation ($25/week)",
+     "es": "Donación a la ONG ($25/semana)"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 8
+   },
+   "hoursPerWeek": 25,
+   "level": "beginner",
+   "instructionLanguages": [
+    "Spanish",
+    "English"
+   ],
+   "pricePerWeek": 235,
+   "registrationFee": 40,
+   "priceSource": {
+    "label": "casavolcan.example/volunteer",
+    "url": "https://casavolcan.example/volunteer"
+   },
+   "priceLastChecked": "2026-09-28",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-02-01",
+     "end": "2027-02-26",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s2",
+     "start": "2027-06-07",
+     "end": "2027-07-02",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 3
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 150,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 4.6,
+   "reviewCount": 58,
+   "applicationDeadlineDays": 30,
+   "minAge": 18,
+   "tags": [
+    "budget",
+    "spanish",
+    "volunteer",
+    "community"
+   ]
+  },
+  {
+   "id": "antigua-cooking-coffee",
+   "title": {
+    "en": "Guatemalan Kitchen & Coffee Farm Week",
+    "es": "Semana de cocina guatemalteca y finca de café"
+   },
+   "schoolId": "antigua-kitchen",
+   "destinationId": "antigua",
+   "category": "cooking",
+   "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Hands preparing tamales in a home kitchen",
+    "es": "Manos preparando tamales en una cocina casera"
+   },
+   "summary": {
+    "en": "Pepián, tamales and tortillas from scratch, plus a day picking and roasting coffee.",
+    "es": "Pepián, tamales y tortillas desde cero, más un día cosechando y tostando café."
+   },
+   "description": {
+    "en": "Cook with local home cooks in small groups of six. Each day starts at the market. Includes a full day at a family-run coffee farm on the slopes of Volcán de Agua.",
+    "es": "Cocina con cocineras locales en grupos de seis. Cada día empieza en el mercado. Incluye un día completo en una finca de café familiar en las faldas del Volcán de Agua."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Thu 9:00–14:00 · market + cooking",
+     "es": "Lun–jue 9:00–14:00 · mercado + cocina"
+    },
+    {
+     "en": "Friday · coffee farm day",
+     "es": "Viernes · día en la finca de café"
+    }
+   ],
+   "includes": [
+    {
+     "en": "All ingredients and meals cooked",
+     "es": "Todos los ingredientes y comidas"
+    },
+    {
+     "en": "Coffee farm transport",
+     "es": "Transporte a la finca"
+    },
+    {
+     "en": "Recipe booklet (EN/ES)",
+     "es": "Recetario (EN/ES)"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 2
+   },
+   "hoursPerWeek": 25,
+   "level": "all",
+   "instructionLanguages": [
+    "Spanish",
+    "English"
+   ],
+   "pricePerWeek": 390,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "antiguakitchen.example",
+    "url": "https://antiguakitchen.example"
+   },
+   "priceLastChecked": "2026-09-20",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2026-11-16",
+     "end": "2026-11-20",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s2",
+     "start": "2027-01-18",
+     "end": "2027-01-22",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-12",
+     "end": "2027-07-16",
+     "seatsLeft": 6
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 150,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 260
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "step-free"
+   ],
+   "rating": 4.9,
+   "reviewCount": 87,
+   "applicationDeadlineDays": 7,
+   "minAge": 12,
+   "tags": [
+    "food",
+    "coffee",
+    "budget"
+   ]
+  },
+  {
+   "id": "xela-spanish-community",
+   "title": {
+    "en": "Spanish & Community Immersion",
+    "es": "Español e inmersión comunitaria"
+   },
+   "schoolId": "xela-comunidad",
+   "destinationId": "quetzaltenango",
+   "category": "languages",
+   "image": "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Students talking in a courtyard in Quetzaltenango",
+    "es": "Estudiantes conversando en un patio de Quetzaltenango"
+   },
+   "summary": {
+    "en": "A non-profit school: 25 hours of one-to-one Spanish and weekly community projects.",
+    "es": "Escuela sin fines de lucro: 25 horas de español individual y proyectos comunitarios semanales."
+   },
+   "description": {
+    "en": "Founded by local teachers, this school reinvests profits in scholarships for Guatemalan children. Expect real immersion: few English speakers, weekly conferences on Guatemalan politics and history, and a family homestay.",
+    "es": "Fundada por maestros locales, esta escuela reinvierte sus ganancias en becas para niños guatemaltecos. Inmersión real: pocos angloparlantes, conferencias semanales sobre política e historia de Guatemala y alojamiento en familia."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 8:00–13:00 · private lessons",
+     "es": "Lun–vie 8:00–13:00 · clases privadas"
+    },
+    {
+     "en": "Wednesday evening · conference",
+     "es": "Miércoles por la tarde · conferencia"
+    },
+    {
+     "en": "Weekend · optional hikes (Lago Chicabal, Fuentes Georginas)",
+     "es": "Fin de semana · caminatas opcionales (Laguna Chicabal, Fuentes Georginas)"
+    }
+   ],
+   "includes": [
+    {
+     "en": "25 h/week private lessons",
+     "es": "25 h/semana de clases privadas"
+    },
+    {
+     "en": "Weekly conference and activity",
+     "es": "Conferencia y actividad semanales"
+    },
+    {
+     "en": "Certificate of hours",
+     "es": "Certificado de horas"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 8
+   },
+   "hoursPerWeek": 25,
+   "level": "all",
+   "instructionLanguages": [
+    "Spanish"
+   ],
+   "pricePerWeek": 175,
+   "registrationFee": 35,
+   "priceSource": {
+    "label": "xelacomunidad.example/costs",
+    "url": "https://xelacomunidad.example/costs"
+   },
+   "priceLastChecked": "2026-09-25",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2026-11-02",
+     "end": "2026-11-27",
+     "seatsLeft": 7
+    },
+    {
+     "id": "s2",
+     "start": "2027-01-04",
+     "end": "2027-01-29",
+     "seatsLeft": 10
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s4",
+     "start": "2027-07-12",
+     "end": "2027-08-06",
+     "seatsLeft": 8
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 110,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    },
+    {
+     "type": "hostel",
+     "pricePerWeek": 80
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "flexible-pace"
+   ],
+   "rating": 4.7,
+   "reviewCount": 162,
+   "applicationDeadlineDays": 14,
+   "minAge": 16,
+   "tags": [
+    "budget",
+    "spanish",
+    "homestay",
+    "nonprofit",
+    "beginner-friendly"
+   ]
+  },
+  {
+   "id": "xela-maya-anthropology",
+   "title": {
+    "en": "Maya Highlands Field Course",
+    "es": "Curso de campo en el altiplano maya"
+   },
+   "schoolId": "instituto-altiplano",
+   "destinationId": "quetzaltenango",
+   "category": "anthropology",
+   "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Weekly market in a highland Maya town",
+    "es": "Mercado semanal en un pueblo maya del altiplano"
+   },
+   "summary": {
+    "en": "Three weeks of seminars and community visits co-designed with K'iche' and Mam partners.",
+    "es": "Tres semanas de seminarios y visitas comunitarias codiseñadas con socios k'iche' y mam."
+   },
+   "description": {
+    "en": "Learn ethnographic methods and the ethics of fieldwork from Guatemalan anthropologists. Visits are led and compensated by community partners. Includes intensive Spanish support and an intro to K'iche'.",
+    "es": "Aprende métodos etnográficos y la ética del trabajo de campo con antropólogos guatemaltecos. Las visitas las dirigen y remuneran los socios comunitarios. Incluye apoyo intensivo de español y una introducción al k'iche'."
+   },
+   "schedule": [
+    {
+     "en": "Mornings · seminars and methods",
+     "es": "Mañanas · seminarios y métodos"
+    },
+    {
+     "en": "Afternoons · community visits (twice a week)",
+     "es": "Tardes · visitas comunitarias (dos veces por semana)"
+    },
+    {
+     "en": "Final week · short research project",
+     "es": "Última semana · breve proyecto de investigación"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Seminars and readings",
+     "es": "Seminarios y lecturas"
+    },
+    {
+     "en": "All field transport",
+     "es": "Todo el transporte de campo"
+    },
+    {
+     "en": "Community partner fees",
+     "es": "Honorarios de socios comunitarios"
+    },
+    {
+     "en": "Certificate (90 contact hours)",
+     "es": "Certificado (90 horas)"
+    }
+   ],
+   "weeks": {
+    "min": 3,
+    "max": 3
+   },
+   "hoursPerWeek": 30,
+   "level": "intermediate",
+   "instructionLanguages": [
+    "Spanish",
+    "English"
+   ],
+   "pricePerWeek": 520,
+   "registrationFee": 100,
+   "priceSource": {
+    "label": "altiplano.example/field-course",
+    "url": "https://altiplano.example/field-course"
+   },
+   "priceLastChecked": "2026-09-18",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-06-14",
+     "end": "2027-07-02",
+     "seatsLeft": 9
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-12",
+     "end": "2027-07-30",
+     "seatsLeft": 12
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 120,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 4.8,
+   "reviewCount": 31,
+   "applicationDeadlineDays": 45,
+   "minAge": 18,
+   "tags": [
+    "anthropology",
+    "spanish",
+    "research",
+    "community"
+   ]
+  },
+  {
+   "id": "xela-teaching-volunteer",
+   "title": {
+    "en": "Spanish + Classroom Assistant Volunteering",
+    "es": "Español + voluntariado como asistente de aula"
+   },
+   "schoolId": "xela-comunidad",
+   "destinationId": "quetzaltenango",
+   "category": "volunteering",
+   "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Classroom with children's drawings on the wall",
+    "es": "Aula con dibujos infantiles en la pared"
+   },
+   "summary": {
+    "en": "Assist local teachers in a rural school after your morning Spanish classes.",
+    "es": "Apoya a maestros locales en una escuela rural después de tus clases de español."
+   },
+   "description": {
+    "en": "Volunteers need at least intermediate Spanish (B1). You'll support — not lead — classes under a Guatemalan teacher, and get weekly feedback. Minimum four weeks so children aren't disrupted by constant turnover.",
+    "es": "Se requiere español intermedio (B1). Apoyarás —no dirigirás— clases con un maestro guatemalteco y recibirás retroalimentación semanal. Mínimo cuatro semanas para no afectar a los niños con cambios constantes."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 8:00–12:00 · Spanish",
+     "es": "Lun–vie 8:00–12:00 · español"
+    },
+    {
+     "en": "Mon–Thu 13:30–16:30 · school placement",
+     "es": "Lun–jue 13:30–16:30 · escuela"
+    }
+   ],
+   "includes": [
+    {
+     "en": "20 h/week Spanish",
+     "es": "20 h/semana de español"
+    },
+    {
+     "en": "Placement and transport",
+     "es": "Asignación y transporte"
+    },
+    {
+     "en": "Child-safeguarding training",
+     "es": "Capacitación en protección infantil"
+    }
+   ],
+   "weeks": {
+    "min": 4,
+    "max": 8
+   },
+   "hoursPerWeek": 32,
+   "level": "intermediate",
+   "instructionLanguages": [
+    "Spanish"
+   ],
+   "pricePerWeek": 195,
+   "registrationFee": 35,
+   "priceSource": {
+    "label": "xelacomunidad.example/volunteer",
+    "url": "https://xelacomunidad.example/volunteer"
+   },
+   "priceLastChecked": "2026-09-25",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-11",
+     "end": "2027-02-05",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 5
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 110,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 4.5,
+   "reviewCount": 22,
+   "applicationDeadlineDays": 30,
+   "minAge": 18,
+   "tags": [
+    "budget",
+    "spanish",
+    "volunteer",
+    "education"
+   ]
+  },
+  {
+   "id": "oaxaca-market-mole",
+   "title": {
+    "en": "From Market to Mole",
+    "es": "Del mercado al mole"
+   },
+   "schoolId": "cocina-mercado",
+   "destinationId": "oaxaca",
+   "category": "cooking",
+   "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Bowls of mole and fresh tortillas on a wooden table",
+    "es": "Platos de mole y tortillas recién hechas en una mesa de madera"
+   },
+   "summary": {
+    "en": "Two weeks cooking Oaxaca's seven moles, with mezcal and chocolate workshops.",
+    "es": "Dos semanas cocinando los siete moles de Oaxaca, con talleres de mezcal y chocolate."
+   },
+   "description": {
+    "en": "A hands-on course taught by traditional cocineras. You'll shop at Mercado 20 de Noviembre and Abastos, grind on a metate, and visit a family palenque. Classes in Spanish with English support.",
+    "es": "Curso práctico con cocineras tradicionales. Comprarás en el Mercado 20 de Noviembre y la Central de Abastos, molerás en metate y visitarás un palenque familiar. Clases en español con apoyo en inglés."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:00–15:00 · market + kitchen",
+     "es": "Lun–vie 9:00–15:00 · mercado + cocina"
+    },
+    {
+     "en": "Saturday (week 1) · palenque visit",
+     "es": "Sábado (semana 1) · visita a palenque"
+    }
+   ],
+   "includes": [
+    {
+     "en": "All ingredients and meals",
+     "es": "Todos los ingredientes y comidas"
+    },
+    {
+     "en": "Mezcal and chocolate workshops",
+     "es": "Talleres de mezcal y chocolate"
+    },
+    {
+     "en": "Certificate of completion",
+     "es": "Certificado de finalización"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 2
+   },
+   "hoursPerWeek": 30,
+   "level": "all",
+   "instructionLanguages": [
+    "Spanish",
+    "English"
+   ],
+   "pricePerWeek": 480,
+   "registrationFee": 50,
+   "priceSource": {
+    "label": "cocinademercado.example/courses",
+    "url": "https://cocinademercado.example/courses"
+   },
+   "priceLastChecked": "2026-09-29",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2026-10-26",
+     "end": "2026-11-06",
+     "seatsLeft": 2
+    },
+    {
+     "id": "s2",
+     "start": "2027-02-08",
+     "end": "2027-02-19",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-16",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s4",
+     "start": "2027-07-19",
+     "end": "2027-07-30",
+     "seatsLeft": 6
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 170,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 290
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free"
+   ],
+   "rating": 4.9,
+   "reviewCount": 143,
+   "applicationDeadlineDays": 14,
+   "minAge": 16,
+   "tags": [
+    "food",
+    "spanish",
+    "mezcal",
+    "market"
+   ]
+  },
+  {
+   "id": "oaxaca-barro-ceramics",
+   "title": {
+    "en": "Red Clay Ceramics Studio",
+    "es": "Taller de cerámica de barro rojo"
+   },
+   "schoolId": "barro-rojo",
+   "destinationId": "oaxaca",
+   "category": "art",
+   "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Hands shaping clay on a pottery wheel",
+    "es": "Manos moldeando barro en un torno"
+   },
+   "summary": {
+    "en": "Hand-building, burnishing and wood firing with master potters.",
+    "es": "Modelado a mano, bruñido y quema en horno de leña con maestros alfareros."
+   },
+   "description": {
+    "en": "Learn Oaxacan techniques — no wheel required. Includes visits to San Bartolo Coyotepec (barro negro) and Atzompa (green glaze) workshops. All levels welcome.",
+    "es": "Aprende técnicas oaxaqueñas, sin necesidad de torno. Incluye visitas a talleres de San Bartolo Coyotepec (barro negro) y Atzompa (vidriado verde). Todos los niveles."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 10:00–14:00 · studio",
+     "es": "Lun–vie 10:00–14:00 · taller"
+    },
+    {
+     "en": "One afternoon per week · village workshop visit",
+     "es": "Una tarde por semana · visita a taller en pueblo"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Clay, tools and firing",
+     "es": "Barro, herramientas y quema"
+    },
+    {
+     "en": "Village visits",
+     "es": "Visitas a pueblos"
+    },
+    {
+     "en": "Shipping help for finished pieces",
+     "es": "Ayuda con envío de piezas"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 4
+   },
+   "hoursPerWeek": 20,
+   "level": "all",
+   "instructionLanguages": [
+    "Spanish",
+    "English"
+   ],
+   "pricePerWeek": 340,
+   "registrationFee": 30,
+   "priceSource": {
+    "label": "barrorojo.example",
+    "url": "https://barrorojo.example"
+   },
+   "priceLastChecked": "2026-09-22",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-11",
+     "end": "2027-02-05",
+     "seatsLeft": 5
+    },
+    {
+     "id": "s2",
+     "start": "2027-03-08",
+     "end": "2027-04-02",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 5
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 170,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 290
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "step-free",
+    "flexible-pace"
+   ],
+   "rating": 4.7,
+   "reviewCount": 49,
+   "applicationDeadlineDays": 21,
+   "minAge": 14,
+   "tags": [
+    "art",
+    "ceramics",
+    "craft"
+   ]
+  },
+  {
+   "id": "oaxaca-zapotec-weaving",
+   "title": {
+    "en": "Zapotec Weaving & Natural Dyes",
+    "es": "Tejido zapoteco y tintes naturales"
+   },
+   "schoolId": "textil-colectivo",
+   "destinationId": "oaxaca",
+   "category": "art",
+   "image": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Wool rugs on a traditional loom",
+    "es": "Tapetes de lana en un telar tradicional"
+   },
+   "summary": {
+    "en": "Learn to weave on a pedal loom and dye with cochineal and indigo in Teotitlán.",
+    "es": "Aprende a tejer en telar de pedal y teñir con grana cochinilla e índigo en Teotitlán."
+   },
+   "description": {
+    "en": "A small family collective teaches carding, spinning, dyeing and weaving. You'll leave with a small rug of your own design. Note: the collective is newer to hosting learners and not yet fully verified.",
+    "es": "Un pequeño colectivo familiar enseña cardado, hilado, teñido y tejido. Te llevarás un tapete diseñado por ti. Nota: el colectivo es nuevo recibiendo estudiantes y aún no está totalmente verificado."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Sat 9:00–13:00 · workshop",
+     "es": "Lun–sáb 9:00–13:00 · taller"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Wool and natural dyes",
+     "es": "Lana y tintes naturales"
+    },
+    {
+     "en": "Daily lunch with the family",
+     "es": "Comida diaria con la familia"
+    },
+    {
+     "en": "Your finished rug",
+     "es": "Tu tapete terminado"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 3
+   },
+   "hoursPerWeek": 24,
+   "level": "beginner",
+   "instructionLanguages": [
+    "Spanish"
+   ],
+   "pricePerWeek": 260,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "textilteotitlan.example",
+    "url": "https://textilteotitlan.example"
+   },
+   "priceLastChecked": "2026-09-10",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-02-15",
+     "end": "2027-02-27",
+     "seatsLeft": 3
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-17",
+     "seatsLeft": 4
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 140,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    }
+   ],
+   "certificate": false,
+   "accessibility": [],
+   "rating": 4.6,
+   "reviewCount": 9,
+   "applicationDeadlineDays": 14,
+   "minAge": 16,
+   "tags": [
+    "art",
+    "textiles",
+    "craft",
+    "budget",
+    "indigenous-led"
+   ]
+  },
+  {
+   "id": "florence-renaissance-drawing",
+   "title": {
+    "en": "Renaissance Drawing Atelier",
+    "es": "Atelier de dibujo renacentista"
+   },
+   "schoolId": "studio-arno",
+   "destinationId": "florence",
+   "category": "art",
+   "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Charcoal drawing of a classical sculpture on an easel",
+    "es": "Dibujo al carboncillo de una escultura clásica en un caballete"
+   },
+   "summary": {
+    "en": "Cast drawing, sight-size method and sketching in Florence's museums.",
+    "es": "Dibujo de yesos, método sight-size y apuntes en los museos de Florencia."
+   },
+   "description": {
+    "en": "Learn the classical sight-size method in a light-filled Oltrarno studio. Mornings are spent at the easel; two afternoons a week you sketch in the Bargello and the Uffizi with your instructor.",
+    "es": "Aprende el método clásico sight-size en un luminoso estudio del Oltrarno. Las mañanas son de caballete; dos tardes por semana dibujas en el Bargello y los Uffizi con tu instructor."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:00–13:00 · studio",
+     "es": "Lun–vie 9:00–13:00 · estudio"
+    },
+    {
+     "en": "Tue & Thu 15:00–17:00 · museum sketching",
+     "es": "Mar y jue 15:00–17:00 · dibujo en museos"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Materials kit",
+     "es": "Kit de materiales"
+    },
+    {
+     "en": "Museum entries on sketch days",
+     "es": "Entradas a museos los días de dibujo"
+    },
+    {
+     "en": "Certificate of attendance",
+     "es": "Certificado de asistencia"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 4
+   },
+   "hoursPerWeek": 24,
+   "level": "all",
+   "instructionLanguages": [
+    "English",
+    "Italian"
+   ],
+   "pricePerWeek": 520,
+   "registrationFee": 60,
+   "priceSource": {
+    "label": "studioarno.example/atelier",
+    "url": "https://studioarno.example/atelier"
+   },
+   "priceLastChecked": "2026-09-26",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-04-05",
+     "end": "2027-04-30",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s2",
+     "start": "2027-06-07",
+     "end": "2027-07-02",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s3",
+     "start": "2027-09-06",
+     "end": "2027-10-01",
+     "seatsLeft": 8
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 320
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 450
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free",
+    "low-vision"
+   ],
+   "rating": 4.8,
+   "reviewCount": 96,
+   "applicationDeadlineDays": 30,
+   "minAge": 16,
+   "tags": [
+    "art",
+    "drawing",
+    "museums"
+   ]
+  },
+  {
+   "id": "florence-art-history-walks",
+   "title": {
+    "en": "Florence Through Its Art: History Walks & Sketchbook",
+    "es": "Florencia a través de su arte: paseos de historia y cuaderno"
+   },
+   "schoolId": "studio-arno",
+   "destinationId": "florence",
+   "category": "history",
+   "image": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "View over Florence's rooftops and cathedral dome",
+    "es": "Vista de los tejados de Florencia y la cúpula de la catedral"
+   },
+   "summary": {
+    "en": "One week of guided art history in churches, palaces and workshops — no drawing skills needed.",
+    "es": "Una semana de historia del arte guiada por iglesias, palacios y talleres, sin necesidad de saber dibujar."
+   },
+   "description": {
+    "en": "An art historian leads small groups (max 10) through Florence's Renaissance story, with daily sketchbook prompts to help you look closely. Perfect for a first trip.",
+    "es": "Una historiadora del arte guía grupos pequeños (máx. 10) por la historia renacentista de Florencia, con ejercicios diarios de cuaderno para mirar con atención. Ideal para un primer viaje."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:30–13:00 · guided walks and visits",
+     "es": "Lun–vie 9:30–13:00 · paseos y visitas guiadas"
+    }
+   ],
+   "includes": [
+    {
+     "en": "All museum entries",
+     "es": "Todas las entradas a museos"
+    },
+    {
+     "en": "Sketchbook and pencils",
+     "es": "Cuaderno y lápices"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 1
+   },
+   "hoursPerWeek": 18,
+   "level": "beginner",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 640,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "studioarno.example/walks",
+    "url": "https://studioarno.example/walks"
+   },
+   "priceLastChecked": "2026-09-26",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-04-12",
+     "end": "2027-04-16",
+     "seatsLeft": 8
+    },
+    {
+     "id": "s2",
+     "start": "2027-05-17",
+     "end": "2027-05-21",
+     "seatsLeft": 5
+    },
+    {
+     "id": "s3",
+     "start": "2027-10-04",
+     "end": "2027-10-08",
+     "seatsLeft": 10
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 320
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 450
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "flexible-pace"
+   ],
+   "rating": 4.7,
+   "reviewCount": 64,
+   "applicationDeadlineDays": 14,
+   "minAge": 14,
+   "tags": [
+    "history",
+    "art",
+    "museums",
+    "first-trip"
+   ]
+  },
+  {
+   "id": "bologna-fresh-pasta",
+   "title": {
+    "en": "Fresh Pasta Intensive",
+    "es": "Intensivo de pasta fresca"
+   },
+   "schoolId": "scuola-sfoglia",
+   "destinationId": "bologna",
+   "category": "cooking",
+   "image": "https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Rolling fresh pasta dough with a long wooden pin",
+    "es": "Estirando masa de pasta fresca con un rodillo largo"
+   },
+   "summary": {
+    "en": "Roll sfoglia by hand like a Bolognese sfoglina: tortellini, tagliatelle and more.",
+    "es": "Estira la sfoglia a mano como una sfoglina boloñesa: tortellini, tagliatelle y más."
+   },
+   "description": {
+    "en": "Taught by sfogline with decades of experience. Each day covers a pasta shape and its classic sauce, plus visits to the Quadrilatero market and a Parmigiano-Reggiano dairy.",
+    "es": "Impartido por sfogline con décadas de experiencia. Cada día se trabaja una forma de pasta y su salsa clásica, con visitas al mercado del Quadrilatero y a una quesería de Parmigiano-Reggiano."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:30–14:00 · hands-on class + lunch",
+     "es": "Lun–vie 9:30–14:00 · clase práctica + almuerzo"
+    },
+    {
+     "en": "Saturday (week 1) · dairy visit",
+     "es": "Sábado (semana 1) · visita a la quesería"
+    }
+   ],
+   "includes": [
+    {
+     "en": "All ingredients and lunches",
+     "es": "Todos los ingredientes y almuerzos"
+    },
+    {
+     "en": "Apron and rolling pin to take home",
+     "es": "Delantal y rodillo para llevar"
+    },
+    {
+     "en": "Certificate of completion",
+     "es": "Certificado de finalización"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 2
+   },
+   "hoursPerWeek": 22,
+   "level": "all",
+   "instructionLanguages": [
+    "Italian",
+    "English"
+   ],
+   "pricePerWeek": 590,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "scuolasfoglia.example/intensive",
+    "url": "https://scuolasfoglia.example/intensive"
+   },
+   "priceLastChecked": "2026-09-27",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-03-15",
+     "end": "2027-03-26",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s2",
+     "start": "2027-05-10",
+     "end": "2027-05-21",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-16",
+     "seatsLeft": 3
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 280
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 390
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free"
+   ],
+   "rating": 4.9,
+   "reviewCount": 178,
+   "applicationDeadlineDays": 21,
+   "minAge": 16,
+   "tags": [
+    "food",
+    "pasta",
+    "italian"
+   ]
+  },
+  {
+   "id": "bologna-italian-cucina",
+   "title": {
+    "en": "Italian Language & Cucina",
+    "es": "Italiano y cocina"
+   },
+   "schoolId": "lingua-viva",
+   "destinationId": "bologna",
+   "category": "languages",
+   "image": "https://images.unsplash.com/photo-1598940603846-a1edd0ef2574?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Bologna's red rooftops seen from a tower",
+    "es": "Tejados rojos de Bolonia vistos desde una torre"
+   },
+   "summary": {
+    "en": "Morning Italian classes, afternoon cooking twice a week. Beginners welcome.",
+    "es": "Italiano por la mañana y cocina dos tardes por semana. Principiantes bienvenidos."
+   },
+   "description": {
+    "en": "Small group Italian (max 8 students) at all CEFR levels, combined with two cooking lessons a week where you practice your new vocabulary. A great budget-friendly way to experience Bologna.",
+    "es": "Italiano en grupos pequeños (máx. 8) de todos los niveles MCER, con dos clases de cocina por semana para practicar el vocabulario. Una forma económica de vivir Bolonia."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:00–13:00 · Italian (group)",
+     "es": "Lun–vie 9:00–13:00 · italiano (grupo)"
+    },
+    {
+     "en": "Tue & Thu 16:00–19:00 · cooking",
+     "es": "Mar y jue 16:00–19:00 · cocina"
+    }
+   ],
+   "includes": [
+    {
+     "en": "20 h/week Italian",
+     "es": "20 h/semana de italiano"
+    },
+    {
+     "en": "2 cooking lessons/week",
+     "es": "2 clases de cocina/semana"
+    },
+    {
+     "en": "CEFR-aligned certificate",
+     "es": "Certificado alineado al MCER"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 8
+   },
+   "hoursPerWeek": 26,
+   "level": "all",
+   "instructionLanguages": [
+    "Italian"
+   ],
+   "pricePerWeek": 410,
+   "registrationFee": 70,
+   "priceSource": {
+    "label": "linguaviva.example/cucina",
+    "url": "https://linguaviva.example/cucina"
+   },
+   "priceLastChecked": "2026-09-21",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-18",
+     "end": "2027-02-12",
+     "seatsLeft": 7
+    },
+    {
+     "id": "s2",
+     "start": "2027-04-05",
+     "end": "2027-04-30",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 5
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 260,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    },
+    {
+     "type": "residence",
+     "pricePerWeek": 280
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 390
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free",
+    "hearing-support"
+   ],
+   "rating": 4.6,
+   "reviewCount": 121,
+   "applicationDeadlineDays": 21,
+   "minAge": 17,
+   "tags": [
+    "italian",
+    "food",
+    "beginner-friendly"
+   ]
+  },
+  {
+   "id": "barcelona-modernisme-sketch",
+   "title": {
+    "en": "Gaudí & Modernisme: Architecture Sketching",
+    "es": "Gaudí y modernismo: dibujo arquitectónico"
+   },
+   "schoolId": "taller-eixample",
+   "destinationId": "barcelona",
+   "category": "architecture",
+   "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Facade of the Sagrada Família",
+    "es": "Fachada de la Sagrada Família"
+   },
+   "summary": {
+    "en": "Two weeks drawing Barcelona's modernist buildings with practicing architects.",
+    "es": "Dos semanas dibujando los edificios modernistas de Barcelona con arquitectos en activo."
+   },
+   "description": {
+    "en": "Study proportion, perspective and urban form through on-site sketching at Casa Batlló, Sant Pau and the Eixample's chamfered blocks. Ends with a small exhibition of participants' work.",
+    "es": "Estudia proporción, perspectiva y forma urbana dibujando in situ en la Casa Batlló, Sant Pau y las manzanas achaflanadas del Eixample. Termina con una pequeña exposición de los participantes."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:00–13:00 · on-site sketching",
+     "es": "Lun–vie 9:00–13:00 · dibujo in situ"
+    },
+    {
+     "en": "Mon & Wed 16:00–18:00 · studio critique",
+     "es": "Lun y mié 16:00–18:00 · crítica en estudio"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Entries to modernist buildings",
+     "es": "Entradas a edificios modernistas"
+    },
+    {
+     "en": "Sketching kit",
+     "es": "Kit de dibujo"
+    },
+    {
+     "en": "Certificate of completion",
+     "es": "Certificado de finalización"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 2
+   },
+   "hoursPerWeek": 24,
+   "level": "intermediate",
+   "instructionLanguages": [
+    "English",
+    "Spanish"
+   ],
+   "pricePerWeek": 560,
+   "registrationFee": 80,
+   "priceSource": {
+    "label": "tallereixample.example",
+    "url": "https://tallereixample.example"
+   },
+   "priceLastChecked": "2026-09-24",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-05-03",
+     "end": "2027-05-14",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s2",
+     "start": "2027-06-14",
+     "end": "2027-06-25",
+     "seatsLeft": 3
+    },
+    {
+     "id": "s3",
+     "start": "2027-09-13",
+     "end": "2027-09-24",
+     "seatsLeft": 10
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 340
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 480
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free"
+   ],
+   "rating": 4.7,
+   "reviewCount": 38,
+   "applicationDeadlineDays": 30,
+   "minAge": 18,
+   "tags": [
+    "architecture",
+    "drawing",
+    "design"
+   ]
+  },
+  {
+   "id": "barcelona-street-photo",
+   "title": {
+    "en": "Street & Documentary Photography",
+    "es": "Fotografía callejera y documental"
+   },
+   "schoolId": "bcn-photo-lab",
+   "destinationId": "barcelona",
+   "category": "photo-film",
+   "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Photographer holding a camera on a city street",
+    "es": "Fotógrafo sosteniendo una cámara en una calle"
+   },
+   "summary": {
+    "en": "Build a photo story about a Barcelona neighborhood in one week.",
+    "es": "Crea un reportaje fotográfico sobre un barrio de Barcelona en una semana."
+   },
+   "description": {
+    "en": "Shoot every day in El Raval, Gràcia or Poblenou, with daily edits and critique. Covers ethics and consent in street photography. Bring any camera, including a phone.",
+    "es": "Fotografía cada día en El Raval, Gràcia o Poblenou, con edición y crítica diarias. Incluye ética y consentimiento en la fotografía callejera. Trae cualquier cámara, incluso un móvil."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 10:00–13:00 · shooting",
+     "es": "Lun–vie 10:00–13:00 · salida fotográfica"
+    },
+    {
+     "en": "Mon–Fri 15:00–17:00 · editing and critique",
+     "es": "Lun–vie 15:00–17:00 · edición y crítica"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Daily critique",
+     "es": "Crítica diaria"
+    },
+    {
+     "en": "Printed zine of your story",
+     "es": "Fanzine impreso con tu reportaje"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 1
+   },
+   "hoursPerWeek": 25,
+   "level": "all",
+   "instructionLanguages": [
+    "English",
+    "Spanish"
+   ],
+   "pricePerWeek": 690,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "bcnphotolab.example/street",
+    "url": "https://bcnphotolab.example/street"
+   },
+   "priceLastChecked": "2026-09-19",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-03-22",
+     "end": "2027-03-26",
+     "seatsLeft": 5
+    },
+    {
+     "id": "s2",
+     "start": "2027-06-21",
+     "end": "2027-06-25",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s3",
+     "start": "2027-10-11",
+     "end": "2027-10-15",
+     "seatsLeft": 8
+    }
+   ],
+   "housing": [
+    {
+     "type": "hostel",
+     "pricePerWeek": 220
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 480
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "flexible-pace"
+   ],
+   "rating": 4.8,
+   "reviewCount": 57,
+   "applicationDeadlineDays": 14,
+   "minAge": 16,
+   "tags": [
+    "photography",
+    "storytelling"
+   ]
+  },
+  {
+   "id": "lisbon-fado",
+   "title": {
+    "en": "Fado Voice & Portuguese Guitar",
+    "es": "Voz de fado y guitarra portuguesa"
+   },
+   "schoolId": "casa-do-fado",
+   "destinationId": "lisbon",
+   "category": "music-dance",
+   "image": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Musicians playing guitar in a dim Lisbon tavern",
+    "es": "Músicos tocando la guitarra en una taberna de Lisboa"
+   },
+   "summary": {
+    "en": "Learn fado's history and sing (or play) alongside professional fadistas in Alfama.",
+    "es": "Aprende la historia del fado y canta (o toca) junto a fadistas profesionales en Alfama."
+   },
+   "description": {
+    "en": "Choose the voice or guitar track. Small-group lessons, listening sessions in casas de fado, and a final informal performance. Some Portuguese pronunciation coaching included.",
+    "es": "Elige voz o guitarra. Clases en grupo pequeño, sesiones de escucha en casas de fado y una presentación final informal. Incluye práctica de pronunciación en portugués."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 14:00–17:30 · lessons",
+     "es": "Lun–vie 14:00–17:30 · clases"
+    },
+    {
+     "en": "Two evenings a week · casa de fado visits",
+     "es": "Dos noches por semana · visitas a casas de fado"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Instrument loan (guitar track)",
+     "es": "Préstamo de instrumento (guitarra)"
+    },
+    {
+     "en": "Fado house entries",
+     "es": "Entradas a casas de fado"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 3
+   },
+   "hoursPerWeek": 20,
+   "level": "all",
+   "instructionLanguages": [
+    "Portuguese",
+    "English"
+   ],
+   "pricePerWeek": 450,
+   "registrationFee": 40,
+   "priceSource": {
+    "label": "casadofado.example/escola",
+    "url": "https://casadofado.example/escola"
+   },
+   "priceLastChecked": "2026-09-23",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-03-01",
+     "end": "2027-03-19",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s2",
+     "start": "2027-05-03",
+     "end": "2027-05-21",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-09-06",
+     "end": "2027-09-24",
+     "seatsLeft": 7
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 300
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 420
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "hearing-support"
+   ],
+   "rating": 4.9,
+   "reviewCount": 44,
+   "applicationDeadlineDays": 21,
+   "minAge": 16,
+   "tags": [
+    "music",
+    "portuguese"
+   ]
+  },
+  {
+   "id": "lisbon-travel-writing",
+   "title": {
+    "en": "Travel & Memoir Writing Retreat",
+    "es": "Retiro de escritura de viajes y memorias"
+   },
+   "schoolId": "lisbon-writers",
+   "destinationId": "lisbon",
+   "category": "writing",
+   "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Notebook and pen on a café table",
+    "es": "Cuaderno y pluma en la mesa de un café"
+   },
+   "summary": {
+    "en": "Two weeks of workshops, city walks and quiet writing time in Bairro Alto.",
+    "es": "Dos semanas de talleres, paseos por la ciudad y tiempo de escritura en el Bairro Alto."
+   },
+   "description": {
+    "en": "Morning workshops led by published authors, afternoons to write, and weekly readings. Group of up to 12. The house opened in 2021 and has few independent reviews so far.",
+    "es": "Talleres matutinos con autores publicados, tardes para escribir y lecturas semanales. Grupo de hasta 12. La casa abrió en 2021 y aún tiene pocas reseñas independientes."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:30–12:30 · workshop",
+     "es": "Lun–vie 9:30–12:30 · taller"
+    },
+    {
+     "en": "Thursday evening · reading",
+     "es": "Jueves por la noche · lectura"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Workshops and one-to-one feedback",
+     "es": "Talleres y retroalimentación individual"
+    },
+    {
+     "en": "Welcome dinner",
+     "es": "Cena de bienvenida"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 2
+   },
+   "hoursPerWeek": 15,
+   "level": "all",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 620,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "lisbonwriters.example/retreat",
+    "url": "https://lisbonwriters.example/retreat"
+   },
+   "priceLastChecked": "2026-09-12",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-04-19",
+     "end": "2027-04-30",
+     "seatsLeft": 5
+    },
+    {
+     "id": "s2",
+     "start": "2027-10-04",
+     "end": "2027-10-15",
+     "seatsLeft": 9
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 330
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "flexible-pace"
+   ],
+   "rating": 4.5,
+   "reviewCount": 11,
+   "applicationDeadlineDays": 45,
+   "minAge": 18,
+   "tags": [
+    "writing",
+    "creative"
+   ]
+  },
+  {
+   "id": "kyoto-washoku",
+   "title": {
+    "en": "Washoku Home Cooking",
+    "es": "Cocina casera washoku"
+   },
+   "schoolId": "kamogawa-cooking",
+   "destinationId": "kyoto",
+   "category": "cooking",
+   "image": "https://images.unsplash.com/photo-1540648639573-8c848de23f0a?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Japanese set meal with rice, miso soup and pickles",
+    "es": "Comida japonesa con arroz, sopa de miso y encurtidos"
+   },
+   "summary": {
+    "en": "Dashi, knife skills and seasonal Kyoto dishes, with Nishiki Market tours.",
+    "es": "Dashi, técnica de cuchillo y platos de temporada de Kioto, con visitas al mercado Nishiki."
+   },
+   "description": {
+    "en": "A one-week course in Japanese home cooking. Learn to make dashi from scratch, cook rice perfectly and build balanced ichiju-sansai meals. Vegetarian and pescatarian adaptations available.",
+    "es": "Curso de una semana de cocina casera japonesa. Aprende a preparar dashi, cocer el arroz y armar comidas ichiju-sansai equilibradas. Adaptaciones vegetarianas y pescetarianas disponibles."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 10:00–14:00 · class + lunch",
+     "es": "Lun–vie 10:00–14:00 · clase + almuerzo"
+    }
+   ],
+   "includes": [
+    {
+     "en": "All ingredients",
+     "es": "Todos los ingredientes"
+    },
+    {
+     "en": "Market tour",
+     "es": "Visita al mercado"
+    },
+    {
+     "en": "Certificate of completion",
+     "es": "Certificado de finalización"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 1
+   },
+   "hoursPerWeek": 20,
+   "level": "all",
+   "instructionLanguages": [
+    "English",
+    "Japanese"
+   ],
+   "pricePerWeek": 780,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "kamogawacooking.example",
+    "url": "https://kamogawacooking.example"
+   },
+   "priceLastChecked": "2026-09-27",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-04-05",
+     "end": "2027-04-09",
+     "seatsLeft": 2
+    },
+    {
+     "id": "s2",
+     "start": "2027-06-07",
+     "end": "2027-06-11",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s3",
+     "start": "2027-11-08",
+     "end": "2027-11-12",
+     "seatsLeft": 4
+    }
+   ],
+   "housing": [
+    {
+     "type": "hostel",
+     "pricePerWeek": 260
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 520
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free"
+   ],
+   "rating": 4.9,
+   "reviewCount": 102,
+   "applicationDeadlineDays": 30,
+   "minAge": 16,
+   "tags": [
+    "food",
+    "japanese",
+    "vegetarian-friendly"
+   ]
+  },
+  {
+   "id": "kyoto-ceramics",
+   "title": {
+    "en": "Kyo-yaki Ceramics Workshop",
+    "es": "Taller de cerámica Kyo-yaki"
+   },
+   "schoolId": "higashiyama-craft",
+   "destinationId": "kyoto",
+   "category": "art",
+   "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Rows of handmade tea bowls drying on a shelf",
+    "es": "Cuencos de té hechos a mano secándose en una repisa"
+   },
+   "summary": {
+    "en": "Throw, trim and glaze tea bowls on Kyoto's historic pottery street.",
+    "es": "Tornea, retornea y esmalta cuencos de té en la histórica calle de alfareros de Kioto."
+   },
+   "description": {
+    "en": "Three weeks with a fourth-generation potter. Learn wheel throwing, trimming and Kyo-yaki glazing, plus a tea ceremony session to understand how your pieces are used.",
+    "es": "Tres semanas con un alfarero de cuarta generación. Aprende torno, retorneado y esmaltado Kyo-yaki, más una ceremonia del té para entender el uso de tus piezas."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:00–15:00 · studio",
+     "es": "Lun–vie 9:00–15:00 · taller"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Clay, glazes and two firings",
+     "es": "Barro, esmaltes y dos quemas"
+    },
+    {
+     "en": "Tea ceremony session",
+     "es": "Sesión de ceremonia del té"
+    },
+    {
+     "en": "Certificate",
+     "es": "Certificado"
+    }
+   ],
+   "weeks": {
+    "min": 3,
+    "max": 3
+   },
+   "hoursPerWeek": 28,
+   "level": "intermediate",
+   "instructionLanguages": [
+    "Japanese",
+    "English"
+   ],
+   "pricePerWeek": 690,
+   "registrationFee": 120,
+   "priceSource": {
+    "label": "higashiyamacraft.example",
+    "url": "https://higashiyamacraft.example"
+   },
+   "priceLastChecked": "2026-09-17",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-05-10",
+     "end": "2027-05-28",
+     "seatsLeft": 4
+    },
+    {
+     "id": "s2",
+     "start": "2027-10-04",
+     "end": "2027-10-22",
+     "seatsLeft": 6
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 380
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 520
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 4.8,
+   "reviewCount": 27,
+   "applicationDeadlineDays": 45,
+   "minAge": 18,
+   "tags": [
+    "art",
+    "ceramics",
+    "craft",
+    "japanese"
+   ]
+  },
+  {
+   "id": "chiangmai-farm-cooking",
+   "title": {
+    "en": "Thai Farm Cooking Course",
+    "es": "Curso de cocina tailandesa en granja"
+   },
+   "schoolId": "mae-rim-kitchen",
+   "destinationId": "chiang-mai",
+   "category": "cooking",
+   "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Bowl of green curry with fresh herbs",
+    "es": "Plato de curry verde con hierbas frescas"
+   },
+   "summary": {
+    "en": "Pick herbs in the garden, pound curry pastes and cook northern Thai classics.",
+    "es": "Recoge hierbas en el huerto, machaca pastas de curry y cocina clásicos del norte de Tailandia."
+   },
+   "description": {
+    "en": "A week on an organic farm 20 minutes from the city. Learn curry pastes, khao soi, larb and Thai desserts. Vegan options for every dish. Free daily transfers from the old city.",
+    "es": "Una semana en una granja orgánica a 20 minutos de la ciudad. Aprende pastas de curry, khao soi, larb y postres tailandeses. Opciones veganas en todos los platos. Traslado diario gratuito desde el casco antiguo."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:00–15:00 · garden + kitchen",
+     "es": "Lun–vie 9:00–15:00 · huerto + cocina"
+    }
+   ],
+   "includes": [
+    {
+     "en": "All ingredients and meals",
+     "es": "Todos los ingredientes y comidas"
+    },
+    {
+     "en": "Daily transfers",
+     "es": "Traslados diarios"
+    },
+    {
+     "en": "Certificate of completion",
+     "es": "Certificado de finalización"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 2
+   },
+   "hoursPerWeek": 30,
+   "level": "all",
+   "instructionLanguages": [
+    "English",
+    "Thai"
+   ],
+   "pricePerWeek": 260,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "maerimkitchen.example",
+    "url": "https://maerimkitchen.example"
+   },
+   "priceLastChecked": "2026-09-29",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2026-11-09",
+     "end": "2026-11-13",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s2",
+     "start": "2027-01-11",
+     "end": "2027-01-15",
+     "seatsLeft": 8
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-05",
+     "end": "2027-07-09",
+     "seatsLeft": 8
+    }
+   ],
+   "housing": [
+    {
+     "type": "hostel",
+     "pricePerWeek": 90
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 180
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free",
+    "flexible-pace"
+   ],
+   "rating": 4.8,
+   "reviewCount": 231,
+   "applicationDeadlineDays": 7,
+   "minAge": 10,
+   "tags": [
+    "food",
+    "budget",
+    "vegan-friendly"
+   ]
+  },
+  {
+   "id": "chiangmai-yoga-foundations",
+   "title": {
+    "en": "Yoga Foundations (100-hour)",
+    "es": "Fundamentos de yoga (100 horas)"
+   },
+   "schoolId": "lanna-yoga",
+   "destinationId": "chiang-mai",
+   "category": "wellness",
+   "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Person doing yoga at sunrise on a wooden deck",
+    "es": "Persona haciendo yoga al amanecer en una terraza de madera"
+   },
+   "summary": {
+    "en": "A gentle, anatomy-focused 100-hour course for deepening your practice.",
+    "es": "Un curso suave de 100 horas centrado en anatomía para profundizar tu práctica."
+   },
+   "description": {
+    "en": "Not a teacher certification — a foundations course for your own practice, with daily asana, breathwork, anatomy and philosophy. Hours count toward a 200-hour training later.",
+    "es": "No es una certificación para enseñar, sino un curso de fundamentos para tu práctica, con asana, respiración, anatomía y filosofía cada día. Las horas cuentan para una formación de 200 horas."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Sat 7:00–9:00 · practice",
+     "es": "Lun–sáb 7:00–9:00 · práctica"
+    },
+    {
+     "en": "Mon–Fri 10:30–13:00 · anatomy & philosophy",
+     "es": "Lun–vie 10:30–13:00 · anatomía y filosofía"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Course manual",
+     "es": "Manual del curso"
+    },
+    {
+     "en": "Mat and props",
+     "es": "Esterilla y accesorios"
+    },
+    {
+     "en": "100-hour certificate",
+     "es": "Certificado de 100 horas"
+    }
+   ],
+   "weeks": {
+    "min": 3,
+    "max": 3
+   },
+   "hoursPerWeek": 34,
+   "level": "beginner",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 380,
+   "registrationFee": 100,
+   "priceSource": {
+    "label": "lannayoga.example/foundations",
+    "url": "https://lannayoga.example/foundations"
+   },
+   "priceLastChecked": "2026-09-14",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-04",
+     "end": "2027-01-22",
+     "seatsLeft": 5
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-23",
+     "seatsLeft": 7
+    }
+   ],
+   "housing": [
+    {
+     "type": "hostel",
+     "pricePerWeek": 90
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 180
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "flexible-pace",
+    "accessible-housing"
+   ],
+   "rating": 4.7,
+   "reviewCount": 68,
+   "applicationDeadlineDays": 30,
+   "minAge": 18,
+   "tags": [
+    "wellness",
+    "yoga",
+    "budget"
+   ]
+  },
+  {
+   "id": "chiangmai-mountain-ecology",
+   "title": {
+    "en": "Mountain Ecology & Permaculture",
+    "es": "Ecología de montaña y permacultura"
+   },
+   "schoolId": "doi-suthep-eco",
+   "destinationId": "chiang-mai",
+   "category": "sustainability",
+   "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Terraced green fields in the mountains",
+    "es": "Campos verdes en terrazas en las montañas"
+   },
+   "summary": {
+    "en": "Forest restoration, watershed science and permaculture design with hill-tribe farmers.",
+    "es": "Restauración forestal, ciencia de cuencas y diseño de permacultura con agricultores de las montañas."
+   },
+   "description": {
+    "en": "Field course combining lectures by Thai ecologists with hands-on work in a community forest. Includes a 3-night stay in a Karen village (guesthouse, shared bathroom).",
+    "es": "Curso de campo que combina clases de ecólogos tailandeses con trabajo práctico en un bosque comunitario. Incluye 3 noches en una aldea karen (casa de huéspedes, baño compartido)."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri · fieldwork mornings, lectures afternoons",
+     "es": "Lun–vie · campo por la mañana, clases por la tarde"
+    },
+    {
+     "en": "Week 2 · village stay",
+     "es": "Semana 2 · estancia en aldea"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Field transport and gear",
+     "es": "Transporte y equipo de campo"
+    },
+    {
+     "en": "Village stay meals",
+     "es": "Comidas en la aldea"
+    },
+    {
+     "en": "Certificate (permaculture intro)",
+     "es": "Certificado (introducción a la permacultura)"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 2
+   },
+   "hoursPerWeek": 35,
+   "level": "all",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 350,
+   "registrationFee": 60,
+   "priceSource": {
+    "label": "doisuthepeco.example/course",
+    "url": "https://doisuthepeco.example/course"
+   },
+   "priceLastChecked": "2026-09-16",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2026-12-07",
+     "end": "2026-12-18",
+     "seatsLeft": 6
+    },
+    {
+     "id": "s2",
+     "start": "2027-02-01",
+     "end": "2027-02-12",
+     "seatsLeft": 8
+    },
+    {
+     "id": "s3",
+     "start": "2027-07-12",
+     "end": "2027-07-23",
+     "seatsLeft": 10
+    }
+   ],
+   "housing": [
+    {
+     "type": "hostel",
+     "pricePerWeek": 90
+    },
+    {
+     "type": "residence",
+     "pricePerWeek": 140
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 4.6,
+   "reviewCount": 35,
+   "applicationDeadlineDays": 21,
+   "minAge": 17,
+   "tags": [
+    "sustainability",
+    "nature",
+    "budget",
+    "outdoors"
+   ]
+  },
+  {
+   "id": "athens-philosophy-summer",
+   "title": {
+    "en": "Ancient Philosophy Summer School",
+    "es": "Escuela de verano de filosofía antigua"
+   },
+   "schoolId": "agora-summer",
+   "destinationId": "athens",
+   "category": "philosophy",
+   "image": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Marble columns of an ancient Greek temple",
+    "es": "Columnas de mármol de un templo griego antiguo"
+   },
+   "summary": {
+    "en": "Read Plato, Aristotle and the Stoics where they taught, with seminars on site.",
+    "es": "Lee a Platón, Aristóteles y los estoicos donde enseñaron, con seminarios in situ."
+   },
+   "description": {
+    "en": "Open to anyone — no philosophy degree required. Morning seminars with university lecturers, afternoon site visits (Academy, Lyceum, Stoa) and evening discussions. Readings sent in advance.",
+    "es": "Abierta a todos, sin título en filosofía. Seminarios matutinos con profesores universitarios, visitas por la tarde (Academia, Liceo, Stoa) y debates por la noche. Lecturas enviadas con antelación."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:30–12:30 · seminar",
+     "es": "Lun–vie 9:30–12:30 · seminario"
+    },
+    {
+     "en": "Mon, Wed, Fri 17:00–19:00 · site visits",
+     "es": "Lun, mié, vie 17:00–19:00 · visitas"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Reader (print + PDF)",
+     "es": "Antología (impresa + PDF)"
+    },
+    {
+     "en": "Site entries",
+     "es": "Entradas a los sitios"
+    },
+    {
+     "en": "Certificate of attendance",
+     "es": "Certificado de asistencia"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 2
+   },
+   "hoursPerWeek": 21,
+   "level": "all",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 495,
+   "registrationFee": 75,
+   "priceSource": {
+    "label": "agorasummer.example/2027",
+    "url": "https://agorasummer.example/2027"
+   },
+   "priceLastChecked": "2026-09-20",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-06-07",
+     "end": "2027-06-18",
+     "seatsLeft": 14
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-16",
+     "seatsLeft": 9
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 260
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 380
+    }
+   ],
+   "certificate": true,
+   "accessibility": [
+    "step-free",
+    "hearing-support"
+   ],
+   "rating": 4.8,
+   "reviewCount": 52,
+   "applicationDeadlineDays": 45,
+   "minAge": 18,
+   "tags": [
+    "philosophy",
+    "history",
+    "reading"
+   ]
+  },
+  {
+   "id": "athens-stoics-week",
+   "title": {
+    "en": "Stoicism in the City: A One-Week Course",
+    "es": "Estoicismo en la ciudad: curso de una semana"
+   },
+   "schoolId": "agora-summer",
+   "destinationId": "athens",
+   "category": "philosophy",
+   "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "The Acropolis seen from a nearby hill",
+    "es": "La Acrópolis vista desde una colina cercana"
+   },
+   "summary": {
+    "en": "A short, practical introduction to Stoic ethics for working professionals.",
+    "es": "Una introducción breve y práctica a la ética estoica para profesionales."
+   },
+   "description": {
+    "en": "Designed to fit into one week of vacation. Short readings, discussion-led sessions and evening walks. Afternoons are free.",
+    "es": "Diseñado para una semana de vacaciones. Lecturas breves, sesiones basadas en el diálogo y paseos al atardecer. Tardes libres."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 9:30–12:30 · sessions",
+     "es": "Lun–vie 9:30–12:30 · sesiones"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Reader",
+     "es": "Antología"
+    },
+    {
+     "en": "Welcome dinner",
+     "es": "Cena de bienvenida"
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 1
+   },
+   "hoursPerWeek": 15,
+   "level": "beginner",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 520,
+   "registrationFee": 0,
+   "priceSource": {
+    "label": "agorasummer.example/stoics",
+    "url": "https://agorasummer.example/stoics"
+   },
+   "priceLastChecked": "2026-09-20",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-04-19",
+     "end": "2027-04-23",
+     "seatsLeft": 12
+    },
+    {
+     "id": "s2",
+     "start": "2027-09-20",
+     "end": "2027-09-24",
+     "seatsLeft": 12
+    }
+   ],
+   "housing": [
+    {
+     "type": "residence",
+     "pricePerWeek": 260
+    },
+    {
+     "type": "apartment",
+     "pricePerWeek": 380
+    }
+   ],
+   "certificate": false,
+   "accessibility": [
+    "step-free",
+    "flexible-pace"
+   ],
+   "rating": 4.6,
+   "reviewCount": 29,
+   "applicationDeadlineDays": 21,
+   "minAge": 18,
+   "tags": [
+    "philosophy",
+    "short",
+    "professionals"
+   ]
+  },
+  {
+   "id": "athens-archaeology-field",
+   "title": {
+    "en": "Archaeology Field School",
+    "es": "Escuela de campo arqueológico"
+   },
+   "schoolId": "attica-field",
+   "destinationId": "athens",
+   "category": "history",
+   "image": "https://images.unsplash.com/photo-1608874973277-a34ed4aba3f8?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Archaeologists brushing soil at an excavation site",
+    "es": "Arqueólogos limpiando tierra en una excavación"
+   },
+   "summary": {
+    "en": "Excavate at a licensed site in Attica and learn finds processing in the lab.",
+    "es": "Excava en un sitio autorizado en el Ática y aprende a procesar hallazgos en el laboratorio."
+   },
+   "description": {
+    "en": "Four weeks on a permitted excavation with a professional team. Early starts to beat the heat, afternoon lab work, and weekend museum trips. Physically demanding; no experience needed.",
+    "es": "Cuatro semanas en una excavación autorizada con un equipo profesional. Comienzo temprano por el calor, laboratorio por la tarde y visitas a museos los fines de semana. Exigente físicamente; no se requiere experiencia."
+   },
+   "schedule": [
+    {
+     "en": "Mon–Fri 6:30–13:00 · excavation",
+     "es": "Lun–vie 6:30–13:00 · excavación"
+    },
+    {
+     "en": "Mon–Thu 16:00–18:00 · lab and lectures",
+     "es": "Lun–jue 16:00–18:00 · laboratorio y clases"
+    }
+   ],
+   "includes": [
+    {
+     "en": "Shared accommodation",
+     "es": "Alojamiento compartido"
+    },
+    {
+     "en": "Weekday meals",
+     "es": "Comidas entre semana"
+    },
+    {
+     "en": "Site transport",
+     "es": "Transporte al sitio"
+    },
+    {
+     "en": "Certificate (150 hours)",
+     "es": "Certificado (150 horas)"
+    }
+   ],
+   "weeks": {
+    "min": 4,
+    "max": 4
+   },
+   "hoursPerWeek": 40,
+   "level": "all",
+   "instructionLanguages": [
+    "English",
+    "Greek"
+   ],
+   "pricePerWeek": 640,
+   "registrationFee": 150,
+   "priceSource": {
+    "label": "atticafield.example/2027",
+    "url": "https://atticafield.example/2027"
+   },
+   "priceLastChecked": "2026-09-15",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-06-07",
+     "end": "2027-07-02",
+     "seatsLeft": 8
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 4
+    }
+   ],
+   "housing": [
+    {
+     "type": "none",
+     "pricePerWeek": 0,
+     "note": {
+      "en": "Shared accommodation is included in the fee.",
+      "es": "El alojamiento compartido está incluido."
+     }
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 4.7,
+   "reviewCount": 41,
+   "applicationDeadlineDays": 60,
+   "minAge": 18,
+   "tags": [
+    "history",
+    "archaeology",
+    "outdoors"
+   ]
+  },
+  {
+   "id": "risk-antigua-visa-package",
+   "title": {
+    "en": "Spanish + Guaranteed Student Visa Package",
+    "es": "Español + paquete de visa de estudiante garantizada"
+   },
+   "schoolId": "sol-y-lengua",
+   "destinationId": "antigua",
+   "category": "languages",
+   "image": "https://images.unsplash.com/photo-1601039641847-7857b994d704?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Generic photo of a colonial street",
+    "es": "Foto genérica de una calle colonial"
+   },
+   "summary": {
+    "en": "\"8 weeks of Spanish and a GUARANTEED visa. Pay today, spots almost gone!\"",
+    "es": "\"8 semanas de español y visa GARANTIZADA. ¡Paga hoy, quedan pocos lugares!\""
+   },
+   "description": {
+    "en": "Text copied from the school's site. Juni flagged this listing: wire-transfer-only payment, a 'guaranteed visa' claim, no physical address, no refund policy and no independent reviews.",
+    "es": "Texto copiado del sitio de la escuela. Juni marcó este anuncio: pago solo por transferencia, promesa de 'visa garantizada', sin dirección física, sin política de reembolso y sin reseñas independientes."
+   },
+   "schedule": [
+    {
+     "en": "Not published",
+     "es": "No publicado"
+    }
+   ],
+   "includes": [
+    {
+     "en": "\"Visa guarantee\" (not possible)",
+     "es": "\"Garantía de visa\" (no es posible)"
+    }
+   ],
+   "weeks": {
+    "min": 8,
+    "max": 8
+   },
+   "hoursPerWeek": 20,
+   "level": "all",
+   "instructionLanguages": [
+    "Spanish"
+   ],
+   "pricePerWeek": 140,
+   "registrationFee": 600,
+   "priceSource": {
+    "label": "Email from school (unverified)",
+    "url": "https://solylengua-visas.example"
+   },
+   "priceLastChecked": "2026-09-30",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-04",
+     "end": "2027-02-26",
+     "seatsLeft": 2
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-08-27",
+     "seatsLeft": 1
+    }
+   ],
+   "housing": [
+    {
+     "type": "homestay",
+     "pricePerWeek": 100,
+     "note": {
+      "en": "Private room, 3 meals a day (except Sundays).",
+      "es": "Habitación privada, 3 comidas al día (excepto domingos)."
+     }
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": null,
+   "reviewCount": 0,
+   "applicationDeadlineDays": 3,
+   "minAge": 16,
+   "tags": [
+    "spanish",
+    "budget"
+   ]
+  },
+  {
+   "id": "risk-florence-master-painter",
+   "title": {
+    "en": "Master Painter Certificate in 2 Weeks",
+    "es": "Certificado de maestro pintor en 2 semanas"
+   },
+   "schoolId": "fast-track-art",
+   "destinationId": "florence",
+   "category": "art",
+   "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Stock photo of paint brushes",
+    "es": "Foto de archivo de pinceles"
+   },
+   "summary": {
+    "en": "\"Become a certified master painter in just 14 days.\"",
+    "es": "\"Conviértete en maestro pintor certificado en solo 14 días.\""
+   },
+   "description": {
+    "en": "Text copied from the academy's site. Juni flagged this listing: wire or crypto payment only, P.O. box instead of an address, no refund policy, reviews only on its own site, and a price far below comparable studios.",
+    "es": "Texto copiado del sitio de la academia. Juni marcó este anuncio: pago solo por transferencia o criptomonedas, apartado postal en lugar de dirección, sin reembolsos, reseñas solo en su sitio y un precio muy inferior al de talleres comparables."
+   },
+   "schedule": [
+    {
+     "en": "Not published",
+     "es": "No publicado"
+    }
+   ],
+   "includes": [
+    {
+     "en": "\"Internationally recognized\" certificate (no accreditor named)",
+     "es": "Certificado \"reconocido internacionalmente\" (sin acreditador)"
+    }
+   ],
+   "weeks": {
+    "min": 2,
+    "max": 2
+   },
+   "hoursPerWeek": 30,
+   "level": "all",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 199,
+   "registrationFee": 250,
+   "priceSource": {
+    "label": "fasttrack-art-florence.example",
+    "url": "https://fasttrack-art-florence.example"
+   },
+   "priceLastChecked": "2026-09-30",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-04-05",
+     "end": "2027-04-16",
+     "seatsLeft": 1
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-16",
+     "seatsLeft": 1
+    }
+   ],
+   "housing": [
+    {
+     "type": "apartment",
+     "pricePerWeek": 300
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": 5,
+   "reviewCount": 12,
+   "applicationDeadlineDays": 2,
+   "minAge": 16,
+   "tags": [
+    "art",
+    "budget"
+   ]
+  },
+  {
+   "id": "risk-chiangmai-orphanage-volunteer",
+   "title": {
+    "en": "Orphanage Teaching Experience",
+    "es": "Experiencia de enseñanza en orfanato"
+   },
+   "schoolId": "dream-volunteer",
+   "destinationId": "chiang-mai",
+   "category": "volunteering",
+   "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=70",
+   "imageAlt": {
+    "en": "Stock photo of a classroom",
+    "es": "Foto de archivo de un aula"
+   },
+   "summary": {
+    "en": "\"Change children's lives! No experience or background check needed.\"",
+    "es": "\"¡Cambia la vida de los niños! Sin experiencia ni antecedentes.\""
+   },
+   "description": {
+    "en": "Text copied from the camp's site. Juni flagged this listing: wire transfer only, no address, no refunds, no independent reviews, no child-safeguarding checks, and claims you can volunteer on a tourist entry. Short-term orphanage volunteering is widely discouraged by child-protection organizations.",
+    "es": "Texto copiado del sitio del campamento. Juni marcó este anuncio: solo transferencia, sin dirección, sin reembolsos, sin reseñas independientes, sin controles de protección infantil y afirma que puedes voluntariar con entrada de turista. Las organizaciones de protección infantil desaconsejan el voluntariado de corto plazo en orfanatos."
+   },
+   "schedule": [
+    {
+     "en": "Not published",
+     "es": "No publicado"
+    }
+   ],
+   "includes": [
+    {
+     "en": "\"Life-changing experience\"",
+     "es": "\"Experiencia que cambia vidas\""
+    }
+   ],
+   "weeks": {
+    "min": 1,
+    "max": 8
+   },
+   "hoursPerWeek": 30,
+   "level": "all",
+   "instructionLanguages": [
+    "English"
+   ],
+   "pricePerWeek": 450,
+   "registrationFee": 300,
+   "priceSource": {
+    "label": "Email from camp (unverified)",
+    "url": "https://dreamvolunteer-camp.example"
+   },
+   "priceLastChecked": "2026-09-30",
+   "sessions": [
+    {
+     "id": "s1",
+     "start": "2027-01-04",
+     "end": "2027-01-29",
+     "seatsLeft": 3
+    },
+    {
+     "id": "s2",
+     "start": "2027-07-05",
+     "end": "2027-07-30",
+     "seatsLeft": 2
+    }
+   ],
+   "housing": [
+    {
+     "type": "hostel",
+     "pricePerWeek": 150
+    }
+   ],
+   "certificate": true,
+   "accessibility": [],
+   "rating": null,
+   "reviewCount": 0,
+   "applicationDeadlineDays": 1,
+   "minAge": 16,
+   "tags": [
+    "volunteer",
+    "teaching"
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "id": "r1",
+   "programId": "antigua-spanish-immersion",
+   "author": "Maya R.",
+   "homeCountry": "US",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-08-14",
+   "verifiedParticipant": true,
+   "text": "Went from barely ordering coffee to holding a 30-minute conversation in four weeks. My host family were wonderful and the school answered every question before I booked."
+  },
+  {
+   "id": "r2",
+   "programId": "antigua-spanish-immersion",
+   "author": "Thomas K.",
+   "homeCountry": "DE",
+   "lang": "en",
+   "rating": 4,
+   "date": "2026-06-02",
+   "verifiedParticipant": true,
+   "text": "Excellent teacher. Antigua is touristy, so you need discipline to keep speaking Spanish in the afternoons."
+  },
+  {
+   "id": "r3",
+   "programId": "xela-spanish-community",
+   "author": "Priya S.",
+   "homeCountry": "IN",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-07-21",
+   "verifiedParticipant": true,
+   "text": "Cheaper than Antigua and you really have to use your Spanish. The Wednesday talks about Guatemalan history were a highlight."
+  },
+  {
+   "id": "r4",
+   "programId": "xela-spanish-community",
+   "author": "Lucía M.",
+   "homeCountry": "AR",
+   "lang": "es",
+   "rating": 4,
+   "date": "2026-03-11",
+   "verifiedParticipant": true,
+   "text": "Vine a acompañar a mi pareja y terminé tomando también la introducción al k'iche'. Gente muy cálida y una escuela bien organizada."
+  },
+  {
+   "id": "r5",
+   "programId": "oaxaca-market-mole",
+   "author": "Daniel P.",
+   "homeCountry": "CA",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-02-28",
+   "verifiedParticipant": true,
+   "text": "The best food experience of my life. Doña Rosa's mole negro class is something I'll never forget."
+  },
+  {
+   "id": "r6",
+   "programId": "oaxaca-market-mole",
+   "author": "Ana G.",
+   "homeCountry": "ES",
+   "lang": "es",
+   "rating": 5,
+   "date": "2026-05-09",
+   "verifiedParticipant": true,
+   "text": "Muy bien organizado, grupos pequeños y cocineras que explican con paciencia. Llevad ropa cómoda para moler en metate."
+  },
+  {
+   "id": "r7",
+   "programId": "bologna-fresh-pasta",
+   "author": "Hannah L.",
+   "homeCountry": "GB",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-05-20",
+   "verifiedParticipant": true,
+   "text": "Hard work for the arms, pure joy for the heart. I now make tortellini at home every Sunday."
+  },
+  {
+   "id": "r8",
+   "programId": "florence-renaissance-drawing",
+   "author": "Kenji A.",
+   "homeCountry": "JP",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-07-03",
+   "verifiedParticipant": true,
+   "text": "As a complete beginner I was nervous, but the instructor adapted everything. Drawing in the Bargello was magical."
+  },
+  {
+   "id": "r9",
+   "programId": "chiangmai-farm-cooking",
+   "author": "Sofía V.",
+   "homeCountry": "MX",
+   "lang": "es",
+   "rating": 5,
+   "date": "2026-01-30",
+   "verifiedParticipant": true,
+   "text": "Súper recomendable y barato. Todo lo cocinamos con hierbas del huerto. Tienen opción vegana de verdad."
+  },
+  {
+   "id": "r10",
+   "programId": "athens-philosophy-summer",
+   "author": "Robert J.",
+   "homeCountry": "US",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-07-25",
+   "verifiedParticipant": true,
+   "text": "Retired engineer, no philosophy background. The lecturers made Aristotle feel alive. Reading the Apology on the Pnyx at sunset — unforgettable."
+  },
+  {
+   "id": "r11",
+   "programId": "athens-archaeology-field",
+   "author": "Camila T.",
+   "homeCountry": "CO",
+   "lang": "es",
+   "rating": 4,
+   "date": "2026-08-02",
+   "verifiedParticipant": true,
+   "text": "Muy exigente físicamente por el calor, pero el equipo es profesional y aprendí muchísimo en el laboratorio."
+  },
+  {
+   "id": "r12",
+   "programId": "lisbon-fado",
+   "author": "Grace O.",
+   "homeCountry": "GB",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-05-30",
+   "verifiedParticipant": true,
+   "text": "I can't sing and I still loved it. The listening nights in Alfama were worth the trip alone."
+  },
+  {
+   "id": "r13",
+   "programId": "kyoto-washoku",
+   "author": "Marie D.",
+   "homeCountry": "FR",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-04-15",
+   "verifiedParticipant": true,
+   "text": "Precise, calm and delicious. They adapted every dish for my vegetarian diet."
+  },
+  {
+   "id": "r14",
+   "programId": "xela-maya-anthropology",
+   "author": "Elena B.",
+   "homeCountry": "MX",
+   "lang": "es",
+   "rating": 5,
+   "date": "2026-07-10",
+   "verifiedParticipant": true,
+   "text": "Un enfoque ético de verdad: las comunidades deciden qué se comparte y reciben un pago justo. Muy recomendable."
+  },
+  {
+   "id": "r15",
+   "programId": "chiangmai-mountain-ecology",
+   "author": "Jonah W.",
+   "homeCountry": "AU",
+   "lang": "en",
+   "rating": 4,
+   "date": "2026-02-20",
+   "verifiedParticipant": true,
+   "text": "Great mix of science and practice. The village stay is basic — bring a headlamp."
+  },
+  {
+   "id": "r16",
+   "programId": "barcelona-street-photo",
+   "author": "Irene F.",
+   "homeCountry": "IT",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-06-28",
+   "verifiedParticipant": true,
+   "text": "The ethics session changed how I photograph people. The final zine is now framed in my living room."
+  },
+  {
+   "id": "r17",
+   "programId": "risk-florence-master-painter",
+   "author": "Anonymous",
+   "homeCountry": "—",
+   "lang": "en",
+   "rating": 5,
+   "date": "2026-09-01",
+   "verifiedParticipant": false,
+   "text": "Best academy!!! Certified master in 2 weeks!!! (Posted on the academy's own website — not verified.)"
+  }
+ ],
+ "passports": [
+  {
+   "code": "US",
+   "name": {
+    "en": "United States",
+    "es": "Estados Unidos"
+   }
+  },
+  {
+   "code": "CA",
+   "name": {
+    "en": "Canada",
+    "es": "Canadá"
+   }
+  },
+  {
+   "code": "GB",
+   "name": {
+    "en": "United Kingdom",
+    "es": "Reino Unido"
+   }
+  },
+  {
+   "code": "EU",
+   "name": {
+    "en": "EU / Schengen country",
+    "es": "País de la UE / Schengen"
+   }
+  },
+  {
+   "code": "MX",
+   "name": {
+    "en": "Mexico",
+    "es": "México"
+   }
+  },
+  {
+   "code": "GT",
+   "name": {
+    "en": "Guatemala",
+    "es": "Guatemala"
+   }
+  },
+  {
+   "code": "BR",
+   "name": {
+    "en": "Brazil",
+    "es": "Brasil"
+   }
+  },
+  {
+   "code": "AR",
+   "name": {
+    "en": "Argentina",
+    "es": "Argentina"
+   }
+  },
+  {
+   "code": "CO",
+   "name": {
+    "en": "Colombia",
+    "es": "Colombia"
+   }
+  },
+  {
+   "code": "IN",
+   "name": {
+    "en": "India",
+    "es": "India"
+   }
+  }
+ ],
+ "visaRules": {
+  "GT": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "EU": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "BR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Typically visa-free for up to 90 days, shared across Guatemala, El Salvador, Honduras and Nicaragua (CA-4).",
+     "es": "Normalmente sin visa hasta 90 días, compartidos entre Guatemala, El Salvador, Honduras y Nicaragua (CA-4)."
+    }
+   },
+   "GT": {
+    "status": "domestic",
+    "note": {
+     "en": "No visa needed in your own country.",
+     "es": "No necesitas visa en tu propio país."
+    }
+   },
+   "IN": {
+    "status": "visa-required",
+    "note": {
+     "en": "A visa is generally required, though holders of certain valid US, Canadian or Schengen visas may be exempt.",
+     "es": "Generalmente se requiere visa, aunque quienes tienen ciertas visas vigentes de EE. UU., Canadá o Schengen pueden estar exentos."
+    }
+   }
+  },
+  "MX": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 180,
+    "note": {
+     "en": "Visa-free; the immigration officer decides the number of days granted (up to 180).",
+     "es": "Sin visa; el agente migratorio decide cuántos días otorga (hasta 180)."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 180,
+    "note": {
+     "en": "Visa-free; the officer decides the days granted (up to 180).",
+     "es": "Sin visa; el agente decide los días otorgados (hasta 180)."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 180,
+    "note": {
+     "en": "Visa-free; the officer decides the days granted (up to 180).",
+     "es": "Sin visa; el agente decide los días otorgados (hasta 180)."
+    }
+   },
+   "EU": {
+    "status": "visa-free",
+    "maxStayDays": 180,
+    "note": {
+     "en": "Visa-free for most EU passports.",
+     "es": "Sin visa para la mayoría de pasaportes de la UE."
+    }
+   },
+   "MX": {
+    "status": "domestic",
+    "note": {
+     "en": "No visa needed in your own country.",
+     "es": "No necesitas visa en tu propio país."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 180,
+    "note": {
+     "en": "Visa-free for tourist stays.",
+     "es": "Sin visa para estancias turísticas."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "maxStayDays": 180,
+    "note": {
+     "en": "Visa-free, but entry checks can be strict; carry proof of funds and return ticket.",
+     "es": "Sin visa, pero los controles pueden ser estrictos; lleva comprobante de fondos y boleto de regreso."
+    }
+   },
+   "GT": {
+    "status": "visa-required",
+    "note": {
+     "en": "A visa is generally required unless you hold certain valid US, Canadian, UK, Japanese or Schengen visas.",
+     "es": "Generalmente se requiere visa salvo que tengas ciertas visas vigentes de EE. UU., Canadá, Reino Unido, Japón o Schengen."
+    }
+   },
+   "BR": {
+    "status": "evisa",
+    "note": {
+     "en": "An electronic visa or a regular visa is required.",
+     "es": "Se requiere visa electrónica o visa ordinaria."
+    }
+   },
+   "IN": {
+    "status": "visa-required",
+    "note": {
+     "en": "A visa is generally required unless you hold certain valid US, Canadian, UK, Japanese or Schengen visas.",
+     "es": "Generalmente se requiere visa salvo que tengas ciertas visas vigentes de EE. UU., Canadá, Reino Unido, Japón o Schengen."
+    }
+   }
+  },
+  "IT": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "EU": {
+    "status": "free-movement",
+    "note": {
+     "en": "EU/Schengen citizens can study short-term with a national ID or passport.",
+     "es": "Los ciudadanos de la UE/Schengen pueden estudiar con documento nacional o pasaporte."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GT": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "BR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "IN": {
+    "status": "visa-required",
+    "maxStayDays": 90,
+    "note": {
+     "en": "A Schengen short-stay (type C) visa is usually required. Apply at the consulate of your main destination; allow 4–8 weeks.",
+     "es": "Normalmente se requiere visado Schengen de corta duración (tipo C). Solicítalo en el consulado de tu destino principal; calcula de 4 a 8 semanas."
+    }
+   }
+  },
+  "ES": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "EU": {
+    "status": "free-movement",
+    "note": {
+     "en": "EU/Schengen citizens can study short-term with a national ID or passport.",
+     "es": "Los ciudadanos de la UE/Schengen pueden estudiar con documento nacional o pasaporte."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GT": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "BR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "IN": {
+    "status": "visa-required",
+    "maxStayDays": 90,
+    "note": {
+     "en": "A Schengen short-stay (type C) visa is usually required. Apply at the consulate of your main destination; allow 4–8 weeks.",
+     "es": "Normalmente se requiere visado Schengen de corta duración (tipo C). Solicítalo en el consulado de tu destino principal; calcula de 4 a 8 semanas."
+    }
+   }
+  },
+  "PT": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "EU": {
+    "status": "free-movement",
+    "note": {
+     "en": "EU/Schengen citizens can study short-term with a national ID or passport.",
+     "es": "Los ciudadanos de la UE/Schengen pueden estudiar con documento nacional o pasaporte."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GT": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "BR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "IN": {
+    "status": "visa-required",
+    "maxStayDays": 90,
+    "note": {
+     "en": "A Schengen short-stay (type C) visa is usually required. Apply at the consulate of your main destination; allow 4–8 weeks.",
+     "es": "Normalmente se requiere visado Schengen de corta duración (tipo C). Solicítalo en el consulado de tu destino principal; calcula de 4 a 8 semanas."
+    }
+   }
+  },
+  "GR": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "EU": {
+    "status": "free-movement",
+    "note": {
+     "en": "EU/Schengen citizens can study short-term with a national ID or passport.",
+     "es": "Los ciudadanos de la UE/Schengen pueden estudiar con documento nacional o pasaporte."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "GT": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "BR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Up to 90 days in any 180-day period across the Schengen area. A pre-travel authorization (ETIAS) may be required — check its current status.",
+     "es": "Hasta 90 días en cualquier periodo de 180 días en el espacio Schengen. Puede requerirse una autorización previa (ETIAS); verifica su estado actual."
+    }
+   },
+   "IN": {
+    "status": "visa-required",
+    "maxStayDays": 90,
+    "note": {
+     "en": "A Schengen short-stay (type C) visa is usually required. Apply at the consulate of your main destination; allow 4–8 weeks.",
+     "es": "Normalmente se requiere visado Schengen de corta duración (tipo C). Solicítalo en el consulado de tu destino principal; calcula de 4 a 8 semanas."
+    }
+   }
+  },
+  "JP": {
+   "US": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Visa-exempt short stay. Short courses under 90 days are usually allowed; longer study needs a student visa.",
+     "es": "Estancia corta sin visa. Los cursos de menos de 90 días suelen estar permitidos; estudios más largos requieren visa de estudiante."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Visa-exempt short stay.",
+     "es": "Estancia corta sin visa."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Visa-exempt short stay.",
+     "es": "Estancia corta sin visa."
+    }
+   },
+   "EU": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Visa-exempt for most EU passports.",
+     "es": "Sin visa para la mayoría de pasaportes de la UE."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Visa-exempt short stay.",
+     "es": "Estancia corta sin visa."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Visa-exempt short stay.",
+     "es": "Estancia corta sin visa."
+    }
+   },
+   "BR": {
+    "status": "evisa",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Apply for a Japan eVisa before travel.",
+     "es": "Solicita la eVisa de Japón antes de viajar."
+    }
+   },
+   "IN": {
+    "status": "evisa",
+    "maxStayDays": 90,
+    "note": {
+     "en": "Apply for a Japan eVisa before travel.",
+     "es": "Solicita la eVisa de Japón antes de viajar."
+    }
+   },
+   "GT": {
+    "status": "check",
+    "note": {
+     "en": "We don't have verified information for this combination yet.",
+     "es": "Aún no tenemos información verificada para esta combinación."
+    }
+   },
+   "CO": {
+    "status": "check",
+    "note": {
+     "en": "We don't have verified information for this combination yet.",
+     "es": "Aún no tenemos información verificada para esta combinación."
+    }
+   }
+  },
+  "TH": {
+   "US": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays. The permitted length has changed recently — confirm before booking.",
+     "es": "Exención de visa para estancias cortas. La duración permitida cambió recientemente; confírmala antes de reservar."
+    }
+   },
+   "CA": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays; confirm the current length.",
+     "es": "Exención de visa para estancias cortas; confirma la duración actual."
+    }
+   },
+   "GB": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays; confirm the current length.",
+     "es": "Exención de visa para estancias cortas; confirma la duración actual."
+    }
+   },
+   "EU": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for most EU passports; confirm the current length.",
+     "es": "Exención de visa para la mayoría de pasaportes de la UE; confirma la duración actual."
+    }
+   },
+   "MX": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays; confirm the current length.",
+     "es": "Exención de visa para estancias cortas; confirma la duración actual."
+    }
+   },
+   "BR": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays; confirm the current length.",
+     "es": "Exención de visa para estancias cortas; confirma la duración actual."
+    }
+   },
+   "AR": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays; confirm the current length.",
+     "es": "Exención de visa para estancias cortas; confirma la duración actual."
+    }
+   },
+   "CO": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption for short stays; confirm the current length.",
+     "es": "Exención de visa para estancias cortas; confirma la duración actual."
+    }
+   },
+   "IN": {
+    "status": "visa-free",
+    "note": {
+     "en": "Visa exemption or visa on arrival, depending on current policy.",
+     "es": "Exención de visa o visa a la llegada, según la política vigente."
+    }
+   },
+   "GT": {
+    "status": "check",
+    "note": {
+     "en": "We don't have verified information for this combination yet.",
+     "es": "Aún no tenemos información verificada para esta combinación."
+    }
+   }
+  }
+ },
+ "visaLastChecked": "2026-09-15"
+}
